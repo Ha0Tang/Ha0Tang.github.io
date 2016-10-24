@@ -1,38 +1,321 @@
----
-layout: page_title
-title: <i class="fa fa-home fa-lg"></i>
-titlename: 首页
----
-<!--<br>--> 
-<center><h3><font color="#000080">怕</font><font color="#FFA500">什</font><font color="#2E8B57">么</font><font color="#F08080">真</font><font color="#00CED1">理</font><font color="red">无</font><font color="#BA55D3">穷, </font><font color="#601986">进</font><font color="#556fb5">一</font><font color="#fa1089">寸</font><font color="#638c0b">有</font><font color="#e00089">一</font><font color="#0a1089">寸</font><font color="#f0c089">的</font><font color="#00c380">欢</font><font color="#cc1089">喜</font></h3></center>
-<div class="row">
-  <div class="col-md-12">
-    <div class="panel panel-primary">
-      <div class="panel-heading">{{ site.locals.newest }}</div>
-      {% for post in paginator.posts %}
-        <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
-          {{post.title}}
-          <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
-        </a>
-      {% endfor %}
-    </div>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Hao Tang</title>
+	<link rel="shortcut icon" href="./logo.jpg">
+	<meta content="Hao Tang" name="keywords" />
+	<style media="screen" type="text/css">
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0pt none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0pt;
+	outline-color: invert;
+	outline-style: none;
+	outline-width: 0pt;
+	padding: 0pt;
+	vertical-align: baseline;
+}
+
+a {
+  color: #1772d0;
+  text-decoration:none;
+}
+
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+}
+
+a.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+b.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+* {
+  margin: 0pt;
+  padding: 0pt;
+}
+
+body {
+	position: relative;
+	margin: 2em auto 2em auto;
+	width: 835px;
+	font-family: Lato, Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	background: #eee;
+}
+
+h2 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+strong {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight:bold;
+}
+
+ul { 
+  list-style: circle;
+}
+
+img {
+  border: none;
+}
+
+li {
+  padding-bottom: 0.5em;
+  margin-left: 1.4em;
+}
+alert {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #FF0000;
+}
+
+em, i {
+	font-style:italic;
+}
+
+div.section {
+  clear: both;
+  margin-bottom: 1.2em;
+  background: #eee;
+}
+
+div.spanner {
+  clear: both;
+}
+
+div.paper {
+  clear: both;
+  margin-top: 0.4em;
+  margin-bottom: 0.7em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.8em 1em 0.9em 1em;
+}
+
+div.paper div {
+  padding-left: 230px;
+}
+
+img.paper {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 200px;
+}
+
+span.blurb {
+  font-style:italic;
+  display:block;
+  margin-top:0.75em;
+  margin-bottom:0.5em;
+}
+
+pre, code {
+  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+  margin: 1em 0;
+  padding: 0;
+}
+
+    .bot {
+	font-size: 14%;
+}
+
+   .ptypej {
+    display: inline;
+    padding: .0em .2em .05em;
+    font-size: 85%;
+    font-weight: bold;
+    line-height: 1;
+	background-color: #5cb85c;
+    color: #FFFFFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+	margin-right: 6px;
+}
+   .ptypec {
+    display: inline;
+    padding: .0em .2em .05em;
+    font-size: 85%;
+    font-weight: bold;
+    line-height: 1;
+	background-color: #428bca;
+    color: #FFFFFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+	margin-right: 6px;
+}
+   .ptypep {
+    display: inline;
+    padding: .0em .2em .05em;
+    font-size: 85%;
+    font-weight: bold;
+    line-height: 1;
+	background-color: #6B6B6B;
+    color: #FFFFFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+	margin-right: 6px;
+}
+/* navigation */
+#nav {
+	/* font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans',*/
+       /* Corbel, Arial, Helvetica, sans-serif; */
+	font-family: Georgia, Times, "Times New Roman", serif;
+	position: fixed;
+	top: 50px;
+	/* left: 860px; */
+	margin-left: 830px; 		/*1060*/
+	width: 95px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#nav li2 {
+    margin-bottom: 1px;
+}
+ol {
+	list-style: none;
+}
+#nav a {
+    display: block;
+    padding: 6px 12px 7px;
+    color: #fff;
+    background-color: #386484;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: #ffde00;
+    /* background-color: #242d36 ; */
+}
+    </style>
+
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>-->
+</head>
+
+<body>
+<ol id="nav">
+    <li><a href="#home" title="Home">Home</a></li>
+    <li><a href="#pub" title="Papers">Papers</a></li>
+    <li><a href="#award" title="Awards">Awards</a></li>
+    <li><a href="#fri" title="Friends">Friends</a></li>
+</ol>
+<a name="home"></a>
+<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 200px;">
+<div style="margin: 0px auto; width: 100%;">
+  <img title="haotang" style="float: left; padding-left: 2em; padding-top: 0.5em; height: 185px;" src="haotang.jpg" />
+  <div style="padding-left: 20em; vertical-align: top; height: 120px;">
+    <p>&nbsp;</p>
+    <p><span style="line-height: 150%; font-size: 20pt;">Hao Tang</span></p>
+    <p><span style="line-height: 150%; font-size: 15pt; font-family: Arial, Helvetica, sans-serif;">唐浩</span><br /><br />
+    Peking University (China)</p>
+    <p><span><strong>Email  </strong>: haotang [at] sz [dot] pku [dot] edu [dot] cn</span> </p> </span><br /><br />
   </div>
-  {% for cate in site.cates %}
-    <div class="col-md-12">
-      <div class="panel panel-primary">
-        <div class="panel-heading">{{ cate }}</div>
-        {% for tag in site.tags %} 
-          {% if tag[0] == cate %}
-            {% for post in tag[1] %}
-              <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
-                {{post.title}}
-                <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
-              </a>
-            {% endfor %}
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endfor %}
 </div>
- 
+</div>
+<!--<div style="clear: both; background-color: #fff; margin-top: 1.5em; padding: .2em; padding-left: .3em;">-->
+
+<div style="clear: both;">
+<div class="section">
+<h2>Biography</h2>
+<div class="paper">
+  <p>My name is Hao Tang, I have graduated from <a href="http://english.pku.edu.cn/">Peking University</a> and got my master’s degree in July, 2016. I used to study in the School of Electronic and Computer Engineering with Computer Application Technology being my major.</p>
+  <p>&nbsp;</p>
+  <p>Most of my research over the past three years has significantly driven me use machine learning to work on the development of better models and technologies to analyze and portray image and video content for prediction and recognition. My research interests include, human gender recognition, image search, image and object classification, human action recognition. During my PhD period, my research interest will lies in machine learning, human-computer interaction, (deep) representation learning, robotics and their applications to computer vision.</p>
+  <p>&nbsp;</p>
+  <p>My motto: If you can't explain it <strong>simply</strong>, you don't understand it well enough.</p>
+</div>
+</div>
+</div>
+<a name="pub"></a>
+<div style="clear: both;">
+<div class="section">
+<div style="clear: both;">
+  <div class="section">
+    <h2 id="confpapers2">Selected Publications</h2>
+
+    <div class="paper" id="TMAPI"><strong> Two-layers Local Coordinate Coding for Robust Image Classification</strong></a><br /><strong><u><em>Hao Tang</em></u></strong>, Hong Liu,  Xiao Wei and Weipeng Huang.<br />
+    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence </em> (<strong>TPAMI</strong>), 2016. (submitted)<br /><alert></alert></div>
+
+    <div class="paper" id="TRIT1"><strong> Human Action Classification Using Sequential Bag-of-Words Model</strong></a><br />Hong Liu, <strong><u><em>Hao Tang</em></u></strong>, Wei Xiao, Ziyi Guo, Lu Tian and Yuan Gao.<br /><em>CAAI Transaction on Intelligence Technology</em> (<strong>TRIT</strong>), 2016. (to appear)<br />
+    </div>
+
+    <div class="paper" id="TRIT2"><strong> Adaptive Region Boosting with Biased Entropy for Path Planning in Changing Environments</strong></a><br />Risheng Kang, Tianwei Zhang, and <strong><u><em>Hao Tang</em></u></strong>.<br /><em>CAAI Transaction on Intelligence Technology</em> (<strong>TRIT</strong>), 2016. (to appear)</p></div>
+
+    <div class="paper" id="IJCAI"><a href='papers/IJCAI16.pdf'><strong> A Novel Feature Matching Strategy for Large Scale Image Retrieval</strong></a><br /> <strong><u><em>Hao Tang</em></u></strong> and Hong Liu.<br /> <em>International Joint Conference on Artificial Intelligence</em> (<strong>IJCAI'16</strong>), 2016.<br /></div>
+
+	<div class="paper" id="MM"><a href='papers/ACMM15.pdf'><strong> Gender Classification Using Pyramid Segmentation for Unconstrained Back-facing Video Sequences</strong></a><br /><strong><u><em>Hao Tang</em></u></strong>, Hong Liu and Wei Xiao.<br /><em>ACM International Conference on Multimedia</em> (<strong>MM'15</strong>), 2015.<br /></div>
+
+	<div class="paper" id="ICIP"><a href='papers/ICIP15.pdf'><strong>SDM-BSM: A Fusing Depth Dcheme for Human Action Recognition</strong></a><br /> Hong Liu, Lu Tian, Mengyuan Liu and <strong><u><em>Hao Tang</em></u></strong>.<br /><em>IEEE International Conference on Image Processing</em> (<strong>ICIP'15</strong>), 2015.<br /></div>
+
+	<div class="paper" id="CCCV15"><a href='papers/CCCV15.pdf'><strong>Two-layers Local Coordinate Coding</strong></a><br />Wei Xiao, Hong Liu, <strong><u><em>Hao Tang</em></u></strong> and Huaping Liu.<br / <em>Chinese Conference on Computer Vision </em>(<strong>CCCV'15</strong>), 2015.<br /></div>
+</div>
+</div>
+
+<h2 id="confpapers4"><a name="award"></a></h2>
+<div style="clear: both;">
+  <div class="section">
+    <h2 id="confpapers">Selected Awards</h2>
+<div class="paper">
+<ul>
+  <ul>
+    <li>2016&nbsp; &nbsp; <strong>Beijing Outstanding Graduate Award</strong> (Top 3%)</li>
+    <li>2016&nbsp; &nbsp; <strong>PKU Outstanding Graduate Award</strong> (Top 15%) </li>
+    <li>2015&nbsp; &nbsp; <strong>National Scholarship</strong> (Ministry of Education of China, Top 3%) <br />
+      </li>
+    <li>2015&nbsp; &nbsp; <strong>PKU Academic Innovation Award </strong> (Top 1%) </li>
+    <li>2015&nbsp; &nbsp; <strong>Pacesetter to Outstanding  Students</strong> (Top 1%)</li>
+    <li>2014&nbsp; &nbsp; <strong>National Scholarship</strong> (Ministry of Education of China, Top 3%)</li>
+  </ul>
+</ul>
+<div class="spanner"></div>
+</div>
+</div>
+</div>
+
+<a name="fri"></a>
+<div style="clear: both;">
+  <div class="section">
+<h2>Collaborators</h2>
+<div class="paper">
+  <p> 
+  Prof. <a href="http://robotics.szpku.edu.cn/e/index.html">Hong Liu</a>, Peking University<br>
+
+  Prof. <a href="https://scholar.google.com/citations?user=sfyr7zMAAAAJ&hl=zh-CN">Yuexian Zou</a>, Peking University<br>
+  
+  Prof. <a href="http://www.ece.pku.edu.cn/index.php?m=content\&c=index\&a=show\&catid=507\&id=42">Wenmin Wang</a>, Peking University<br>
+
+  <a href="http://www.liangzheng.org/index.html">Liang Zheng</a>, postdoc research, University of Technology Sydney<br>
+
+  <p>Wei Xiao, postdoc research, Peking University.</p>
+
+</div>
+</div>
+</div>
+Last updated on 25th Oct. 2016.
+
+</body>
+</html>
