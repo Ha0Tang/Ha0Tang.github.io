@@ -245,7 +245,6 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 <div class="paragraph" style="text-align:left;"><ul>
 	<li><font size="3"><strong>Aug. 1, 2018:</strong> The training and testing <a href="https://github.com/danxuhk/StructuredAttentionDepthEstimation" target="_blank">code</a> for </font><font size="3">Structured Attention Guided Convolutional Neural Fields for Monocular Depth Estimation is available.</font></li>
 	<li><font size="3"><strong>Jun. 18, 2018:</strong> The <a href="https://github.com/dapengchen123/crf_affinity" target="_blank">code</a> for </font><font size="3">Group Consistent Similarity Learning via Deep CRFs for&nbsp;Person Re-Identification is available.</font></li>
-	<li><font size="3"><strong>Jun. 1, 2018:</strong>&nbsp;One paper is accepted at <a href="http://www.acmmm.org/2018/" target="_blank">ACM MM 2018</a> as an oral.&nbsp;</font></li>
 	<li><font size="3"><strong>Mar. 11, 2018:</strong>&nbsp;One paper is accepted at <a href="https://www.computer.org/web/tpami" target="_blank">TPAMI 2018</a>.&nbsp;</font></li>
 	<li><font size="3"><strong>Feb. 02, 2018</strong>: Four&nbsp;papers including one oral and one spotlight&nbsp;are accepted at <a href="http://cvpr2018.thecvf.com/" target="_blank">CVPR 2018</a>.</font></li><li><font size="3"><strong>Sep. 04, 2017: </strong>One paper is accepted at <a href="https://nips.cc/" target="_blank">NIPS 2017</a>&nbsp;which will be held in Long Beach, USA.</font><font size="3"><strong>&nbsp;</strong></font></li><li><font size="3"><strong>Jul. 10, 2017: </strong>We published the <a href="https://github.com/danxuhk/ContinuousCRF-CNN" target="_blank">code</a> for continuous CRFs as sequential neural network associated with our CVPR 2017 spotlight paper on GitHub.</font></li><li><font size="3"><strong>Mar. 10, 2017: </strong>The <a href="https://github.com/xavirema/lena_pooling" target="_blank">code</a> for learned Top-K Global Pooling published at CVPR 2017 is available on GitHub.</font></li><li><font size="3"><strong>Feb.27th, 2017</strong>: One spotlight and two posters are accepted at <a href="http://cvpr2017.thecvf.com/" target="_blank">CVPR 2017</a>.</font></li><li><font size="3"><strong>Dec. 6th, 2016:</strong>&nbsp;Our&nbsp;paper is awarded <font color="#a82e2e">&#8203;Best Scientific Paper</font> at <a href="http://www.icpr2016.org/site/" target="_blank">ICPR 2016</a>.&nbsp;</font></li><li><font size="3">&#8203;<strong>Aug. 15th, 2016:</strong>&nbsp;Our&nbsp;paper is accepted at&nbsp;<a href="http://www.accv2016.org/" target="_blank">ACCV 2016</a>.</font></li><li><font size="3"><strong>Aug. 11th, 2016:</strong> Our&nbsp;paper is&nbsp;accepted at <a href="http://www.acmmm.org/2016/" target="_blank">ACM MM 2016</a>&nbsp;as an oral presentation.</font>&#8203;</li><li><font size="3"><strong>Jul. 12, 2015:</strong> Attend International Computer Vision Summer School (<a href="http://svg.dmi.unict.it/icvss2015/" target="_blank">ICVSS 2015</a>) held in Sicily, Italy.</font></li><li><font size="3"><strong>Jul. 03, 2015:</strong> Our paper is accepted at&nbsp;<a href="http://bmvc2015.swan.ac.uk/">BMVC 2015</a> as an oral presentation.</font></li><li><font size="3"><strong>Jun.28, 2015:</strong> My research homepage is online.</font></li></ul></div>
 
@@ -282,76 +281,6 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		<tbody class="wsite-multicol-tbody">
 			<tr class="wsite-multicol-tr">
 				<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-	
-	
-</td>			</tr>
-			</tbody>
-		</table>
-	</div></div></div>
-
-	<div class="wsite-spacer" style="height:10px;"></div>
-
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/2018/mm18hao.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>GestureGAN for Hand Gesture-to-Gesture Translation in the Wild</strong><br />Hao Tang, Wei Wang, <strong>Dan Xu</strong>, Yan Yan, Nicu Sebe</span><br /><span style="color:rgb(68, 68, 68)">ACM International Conference on Multimedia (</span><em style="color:rgb(68, 68, 68)"><strong>ACM MM 2018</strong></em><span style="color:rgb(68, 68, 68)">), Seoul, Korea </span></font><span>&#8203;</span><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Oral Presentation</font></strong><span>)</span></font></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldmmge");            
-	                var output = document.getElementById("outputmmge");
-	                var bibtex = document.getElementById("bibtexmmge");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-	            <button id="fieldmmge" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1mmge" type="text" disabled style="font-size : 13px" tabindex="-1"><a href="https://arxiv.org/pdf/1807.10915.pdf" style="color:blue" target="_blank">PDF</a> </button>-<button id="field2mmge" type="text" disabled style="font-size : 13px; color:blue" tabindex="-1"><a href="https://github.com/andrea-pilzer/unsup-stereo-depthGAN" style="color:blue" target="_blank">Project</a></button>
-	            <div id="outputmmge" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-	            <div id="bibtexmmge" style="display:none">
-          
-	<pre><br />@inproceedings{hao2018Geaturegan,
-	  title={GestureGAN for Hand Gesture-to-Gesture Translation in the Wild},
-	  author={Tang, Hao and Wang, Wei and Xu, Dan and Yan, Yan and Sebe, Nicu},
-	  booktitle={ACM MM},
-	  year={2018}
-	}<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
 					
 
 				</td>			</tr>
@@ -367,16 +296,20 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 			<tr class="wsite-multicol-tr">
 				<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
 					
-					
-			
-					
+						
+
 <div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
 <img src="uploads/2018/cycle_depth_2.jpg" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
+
+
 				</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
+					
+						
+
 <div class="paragraph"><font size="3"><span><strong>Unsupervised Adversarial Depth Estimation using Cycled Generative Networks</strong><br />Andrea Pilzer, <strong>Dan Xu</strong>, Mihai Puscas, Elisa Ricci, Nicu Sebe</span><br /><span style="color:rgb(68, 68, 68)">International Conference on 3D Vision (</span><em style="color:rgb(68, 68, 68)"><strong>3DV 2018</strong></em><span style="color:rgb(68, 68, 68)">), Verona, Italy</span></font><span>&#8203;</span></div>
 
 <div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
@@ -852,7 +785,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 					
 						
 
-<div class="paragraph"><font size="3"><strong>Multi-Scale Continuous CRFs as Sequential Deep Networks for Monocular Depth Estimation</strong><br /><strong>Dan Xu</strong>, Elisa Ricci, Wanli Ouyang, Xiaogang Wang, Nicu Sebe<br />&#8203;<span style="color:rgb(68, 68, 68)">IEEE Conference on Computer Vision and Pattern Recognition (</span><em style="color:rgb(68, 68, 68)"><strong>CVPR 2017</strong></em><span style="color:rgb(68, 68, 68)">), Hawaii, USA</span><br/>(<strong><font color="#a82e2e">Spotlight Presentation, 8% acceptance rate</font></strong>)</font></div>
+<div class="paragraph"><font size="3"><strong>Multi-Scale Continuous CRFs as Sequential Deep Networks for Monocular Depth Estimation</strong><br /><strong>Dan Xu</strong>, Elisa Ricci, Wanli Ouyang, Xiaogang Wang, Nicu Sebe<br />&#8203;<span style="color:rgb(68, 68, 68)">IEEE Conference on Computer Vision and Pattern Recognition (</span><em style="color:rgb(68, 68, 68)"><strong>CVPR 2017</strong></em><span style="color:rgb(68, 68, 68)">), Hawaii, USA</span><br />(<strong><font color="#a82e2e">Spotlight Presentation, 8% acceptance rate</font></strong>)</font></div>
 
 <div><div id="931079758642117577" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
     <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
@@ -1516,9 +1449,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 <h2 class="wsite-content-title" style="text-align:left;"><font size="5"><em>&#8203;</em>&#65279;Professional Activity</font></h2>
 
 <div class="paragraph" style="text-align:left;"><font size="3">Journal/Conference reviewer</font><ul>
- 	<li><font size="3">IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)</font>&#8203;</li>	
 	<li><font size="3">International Journal of Computer Vision (<strong>IJCV</strong>)</font>&#8203;</li>
-	<li><font size="3">IEEE Transactions on Neural Networks and Learning Systems (<strong>TNNLS</strong>)</font>&#8203;</li>	
 	<li><font size="3">IEEE Transactions on Image Processing (<strong>TIP</strong>)</font>&#8203;</li>
 	<li><font size="3">&#8203;&#8203;IEEE Transactions on Circuits and Systems for Video Technology (<strong>TCSVT</strong>)</font><font size="3">&#8203;</font></li><li><font size="3"><span>Elsevier Journal of&nbsp;</span>Computer Vision and Image Understanding&nbsp;(<strong>CVIU</strong>)</font></li><li><font size="3">IEEE Transactions on Multimedia (<strong>TMM</strong>)</font></li><li><font size="3">IEEE Transactions on Industrial Informatics (<strong>TII</strong>)</font></li><li><font size="3">IEEE Transactions on Multimedia Computing Communications and Applications (<strong>TOMM</strong>)</font></li>
 	<li><font size="3">World Wide Web Journal (<strong>WWW</strong>)</font>&#8203;</li>
