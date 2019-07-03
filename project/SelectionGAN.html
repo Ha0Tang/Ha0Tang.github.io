@@ -73,6 +73,7 @@ BODY {
 	<a href="http://disi.unitn.it/~hao.tang/uploads/slides/SelectionGAN_CVPR19.pptx" target="_blank">Slides</a> | 
 	<a href="http://disi.unitn.it/~hao.tang/uploads/videos/SelectionGAN_CVPR19.mp4" target="_blank">Video</a> | 
 	<a href="http://disi.unitn.it/~hao.tang/uploads/posters/SelectionGAN_CVPR19.pdf" target="_blank">Poster</a> </strong> </h2></center>
+
 <center><a href="./SelectionGAN Project Page_files/framework.jpg">
 <img src="./SelectionGAN Project Page_files/framework.jpg" width="100%"> </a></center>
 <p align="justify"> Overview of the proposed SelectionGAN. Stage I presents a cycled semantic-guided generation sub-network which accepts images from one view and conditional semantic maps and simultaneously synthesizes images and semantic maps in another view. Stage II takes the coarse predictions and the learned deep semantic features from stage I, and performs a fine-grained generation using the proposed multi-channel attention selection module.
@@ -86,7 +87,6 @@ BODY {
 
 <div style="font-size:14px"><p align="justify">Cross-view image translation is challenging because it involves  images with drastically different views and severe deformation.
 In this paper, we propose a novel approach named Multi-Channel Attention SelectionGAN (SelectionGAN) that makes it possible to generate images of natural scenes in arbitrary viewpoints, based on an image of the scene and a novel semantic map. The proposed SelectionGAN explicitly utilizes the semantic information and consists of two stages. In the first stage, the condition image and the target semantic map are fed into a cycled semantic-guided generation network to produce initial coarse results. In the second stage, we refine the initial results by using a multi-channel attention selection mechanism. Moreover, uncertainty maps automatically learned from attentions are used to guide the pixel loss for better network optimization. Extensive experiments on Dayton, CVUSA and Ego2Top datasets show that our model is able to generate significantly better results than the state-of-the-art methods.</p></div>
-
 
 <a href="https://arxiv.org/abs/1904.06807" target="_blank"><img style="float: left; padding: 10px; PADDING-RIGHT: 30px;" alt="paper thumbnail" src="./SelectionGAN Project Page_files/paper_thumbnail.jpg" width="150"></a>
 
