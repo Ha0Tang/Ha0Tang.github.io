@@ -316,11 +316,7 @@
                 </a><p style="text-align: center;"><a href="https://arxiv.org/abs/1808.04859"></a><a href="https://github.com/Ha0Tang/GestureGAN" target="_blank">[GitHub Code]</a></p>
         </div>
 
-        <p>Pipeline of the proposed unified GAN model for controllable image-to-image translation tasks, e.g., cross-view image translation task (Top) and hand gesture-to-gesture translation task (Bottom). 
-        The proposed GAN framework consists of a single generator G and an associated adversarial discriminator D.  
-        The proposed model takes a conditional image x and a controllable structure Cy as input to produce the target image y'.  
-        In this way, the conditional image x can provide appearance information and the controllable structure Cy can provide the structure information for generating the target image y'.  
-        To further regularize the mappings, we introduce the controllable structure guided cycle consistency losses that capture the intuition that if we translate from one image and the target controllable structure to the other and back again we should arrive at where we started, i.e., [x, C_y] -> [y', C_x] -> x''  = x. Here we only demonstrate the translation part from x to y and back to x while the counter part from y to x and back to y (i.e., [y, C_x] -> [x', C_y] -> y'' = y) is similar. Note that controllable structure Cy can be class labels, object keypoints, human skeletons or semantic maps, etc.</p>
+        <p>Hand gesture-to-gesture translation in the wild is a challenging task since hand gestures can have arbitrary poses, sizes, locations and self-occlusions. Therefore, this task requires a high-level understanding of the mapping between the input source gesture and the output target gesture. To tackle this problem, we propose a novel hand Gesture Generative Adversarial Network (GestureGAN). GestureGAN consists of a single generator G and a discriminator D, which takes as input a conditional hand image and a target hand skeleton image. GestureGAN utilizes the hand skeleton information explicitly, and learns the gesture-to-gesture mapping through two novel losses, the color loss and the cycle-consistency loss. The proposed color loss handles the issue of "channel pollution" while back-propagating the gradients. In addition, we present the Fr\'echet ResNet Distance (FRD) to evaluate the quality of generated images. Extensive experiments on two widely used benchmark datasets demonstrate that the proposed GestureGAN achieves state-of-the-art performance on the unconstrained hand gesture-to-gesture translation task. Meanwhile, the generated images are in high-quality and are photo-realistic, allowing them to be used as data augmentation to improve the performance of a hand gesture classifier. </p>
 
 
         <br clear="all">
@@ -363,18 +359,7 @@
     <div class="content" id="references">
 
         <h2>Reference</h2>
-        <p>Hao Tang, Nicu Sebe. Unified Generative Adversarial Networks for Controllable Image-to-Image Translation. 2019.</p>
         <p>Hao Tang, Wei Wang, Dan Xu, Yan Yan, Nicu Sebe. GestureGAN for Hand Gesture-to-Gesture Translation in the Wild. ACM MM 2018.</p>
-
-        <code>
-            @article{tang2018unified,<br>
-            &nbsp;&nbsp;title={Unified Generative Adversarial Networks for Controllable Image-to-Image Translation},<br>
-            &nbsp;&nbsp;author={Tang, Hao and Sebe, Nicu},<br>
-            &nbsp;&nbsp;journal={arXiv},<br>
-            &nbsp;&nbsp;year={2019}<br>
-            }
-        </code>
-
         <code>
             @inproceedings{tang2018gesturegan,<br>
             &nbsp;&nbsp;title={GestureGAN for Hand Gesture-to-Gesture Translation in the Wild},<br>
@@ -387,8 +372,7 @@
     </div>      
     <div class="content" id="acknowledgements">
           <p><strong>Acknowledgements</strong>: <br>
-              We want to thank the Nvidia Corporation for the donation of the TITAN Xp GPUs used in this work. 
-              Code is borrowed from <a href="https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix">Pix2pix</a>.
+              We want to thank the Nvidia Corporation for the donation of the TITAN Xp GPUs used in this work.
               <!--
               <p><strong>Disclaimer</strong>: The views and conclusions contained herein are those of the authors and
                   should not be interpreted as necessarily representing the official policies or endorsements, either
