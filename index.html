@@ -1,1190 +1,733 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Hao TANG - University of Trento</title>
-<meta name="description" content="Dan Xu's research page!" />
-<meta name="keywords" content="Dan Xu; VGG; University of Oxford; Oxford; Computer vision; Machine Learning; Multimedia; CVPR; NIPS; Scene Understanding; 2D; 3D; depth" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-		<meta name="google-site-verification" 
-content="H_f9Itsrdoc8WY1KDH1nc6DQ1-6e_Q23MLPGBO0arHA" />
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
 
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yulun Zhang</title>
+    <meta name="author" content="Yulun  Zhang">
+    <meta name="description" content="&lt;p&gt; Computer Vision Lab, ETH Zürich, Switzerland&lt;br&gt; Office: ETF D114.1, Sternwartstrasse 7, 8092 Zürich, Switzerland&lt;br&gt; Email: yulun100@gmail.com&lt;/p&gt;
+">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9C%8C%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/">About<span class="sr-only">(current)</span></a>
+              </li>
+              
+              <!--  -->
+              <!-- Blog -->
+              <!-- <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
+              </li> -->
+              
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/services/">Services</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/others/">Others</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <div class="post">
+
+
+  <article>
+    <div class="row">
+        <div class="col-sm-3">
+            
+            <img style="width: 170px;border-radius: 10px" src="/assets/img/prof_pic.jpg">
+            
+        </div>
+    
+        <div class="col-sm-9">
+            <h1 class="post-title">
+            Yulun Zhang
+            </h1>
+            <p class="desc"></p>
+<p> Computer Vision Lab, ETH Zürich, Switzerland<br> Office: ETF D114.1, Sternwartstrasse 7, 8092 Zürich, Switzerland<br> Email: yulun100@gmail.com</p>
+
+            <div class="social">
+                <div class="contact-icons">
+                <a href="https://scholar.google.com/citations?user=ORmLjWoAAAAJ&amp;hl" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://github.com/yulunzhang" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yulun-zhang-1116b5b9" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="http://dblp.org/pers/hd/z/Zhang:Yulun" title="DBLP" rel="external nofollow noopener" target="_blank"><i class="ai ai-dblp"></i></a>
+            
+
+                </div>
+            </div>
+   
+        </div>
+    </div>
+
+    <div class="clearfix">
+      <p>I am a postdoctoral researcher at Computer Vision Lab, ETH Zürich, Switzerland. Previously, I obtained my Ph.D. degree from Department of Electrical &amp; Computer Engineering, Northeastern University, USA, in Aug. 2021. Before that I received my master degree from the Department of Automation, Tsinghua University, China, in Jul. 2017 and B.E degree from School of Electronic Engineering, Xidian University, China, in Jul. 2013.</p>
+
+<p>My research interest broadly includes machine learning and computer vision. Specifically, I focus on image/video restoration (e.g., super-resolution, denoising, deblurring), synthesis (e.g., style transfer, texture transfer), biomedical image enhancement and analysis, deep model compression, computational imaging (e.g., spectral compressive imaging), etc. I am/was an Area Chair for CVPR’2023, ICCV’2023 and Senior Program Committee (SPC) member for IJCAI’(2021-2023), AAAI’2023.</p>
+
+<p><strong>For prospective collaborators</strong>: We have multiple positions for Postdoc/Ph.D./Master/Intern researchers. If you are interested in joining/visitng Computer Vision Lab or remotely working with us, please email me with your resume.</p>
+
+    </div>
+
+
+    
+                
+          <div class="news">
+            <h2>News</h2>
+            <div class="table-responsive" style="max-height: 20vw">
+              <table class="table table-sm table-borderless">
+               
+                <tr>
+                  <!-- <th scope="row">Dec 9, 2022</th> -->
+                  <th scope="row">Dec 2022</th>
+                  <td>
+                    I am serving as a Senior Program Committee (SPC) member for <strong>IJCAI 2023</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Nov 21, 2022</th> -->
+                  <th scope="row">Nov 2022</th>
+                  <td>
+                    I am serving as an Area Chair for <strong>ICCV 2023</strong>. We have 2 papers accepted to <strong>AAAI 2023</strong>. They are about lightweight SR (<a href="https://github.com/Sun1992/HPUN" rel="external nofollow noopener" target="_blank">HPUN</a>) and hyperspectral image denoising (<a href="https://github.com/MyuLi/SST" rel="external nofollow noopener" target="_blank">SST</a>).
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Oct 4, 2022</th> -->
+                  <th scope="row">Oct 2022</th>
+                  <td>
+                    I am serving as an Area Chair for <strong>CVPR 2023</strong>. We have 1 paper accepted to <strong>TIP</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Sep 15, 2022</th> -->
+                  <th scope="row">Sep 2022</th>
+                  <td>
+                    We have 2 papers accepted to <strong>NeurIPS 2022</strong>. They are about image restoration (<a href="https://github.com/zhengchen1999/CAT" rel="external nofollow noopener" target="_blank">CAT</a>) and  spectral compressive imaging (<a href="https://github.com/caiyuanhao1998/MST" rel="external nofollow noopener" target="_blank">DAUHST</a>).
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jul 15, 2022</th> -->
+                  <th scope="row">Jul 2022</th>
+                  <td>
+                    I am serving as a Senior Program Committee (SPC) member for <strong>AAAI 2023</strong> and reviewer for <strong>ICLR 2023</strong>. We have 5 papers accepted to <strong>ECCV 2022</strong> and 1 paper accepted to <strong>TPAMI</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jun 15, 2022</th> -->
+                  <th scope="row">Jun 2022</th>
+                  <td>
+                    We have released the codebase for <a href="https://github.com/caiyuanhao1998/MST" rel="external nofollow noopener" target="_blank">Spectral Compressive Imaging</a>. We have 1 paper accepted to <strong>TPAMI</strong> and 2 papers accepted to <strong>ACM MM 2022</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">May 15, 2022</th> -->
+                  <th scope="row">May 2022</th>
+                  <td>
+                    We have 2 papers accepted to <strong>ICML 2022</strong>. Our paper <a href="https://github.com/yulunzhang/RCAN" rel="external nofollow noopener" target="_blank">RCAN</a> ranks top 10 most influential papers based on citations in ECCV 2018. See <a href="https://www.paperdigest.org/2022/05/most-influential-eccv-papers-2022-05/" rel="external nofollow noopener" target="_blank">Most Influential ECCV Papers</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Apr 21, 2022</th> -->
+                  <th scope="row">Apr 2022</th>
+                  <td>
+                    We have 2 papers accepted to <strong>IJCAI 2022</strong>. We won the first place in <a href="https://codalab.lisn.upsaclay.fr/competitions/721" rel="external nofollow noopener" target="_blank">NTIRE Spectral Reconstruction Challenge</a> at CVPR, 2022. The <a href="https://arxiv.org/abs/2204.07908" rel="external nofollow noopener" target="_blank">paper</a> and <a href="https://github.com/caiyuanhao1998/MST-plus-plus" rel="external nofollow noopener" target="_blank">codebase</a> of our solution MST++ have been released.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Mar 30, 2022</th> -->
+                  <th scope="row">Mar 2022</th>
+                  <td>
+                    We have 3 papers (two about spectral compressive imaging, one about interpretable image SR) accepted to <strong>CVPR 2022</strong>. I am serving as reviewer for <strong>ECCV 2022</strong> and <strong>NeurIPS 2022</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jan 12, 2022</th> -->
+                  <th scope="row">Jan 2022</th>
+                  <td>
+                    We have 1 paper accepted to <strong>TPAMI</strong> and another one accepted to <strong>ICLR 2022</strong>. I am serving as reviewer for <strong>ACM MM 2022</strong> and <strong>MICCAI 2022</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Dec 21, 2021</th> -->
+                  <th scope="row">Dec 2021</th>
+                  <td>
+                    I am serving as SPC for <strong>IJCAI 2022</strong> and reviewer for <strong>ICML 2022</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Sep 21, 2021</th> -->
+                  <th scope="row">Sep 2021</th>
+                  <td>
+                    3 papers are accepted to <strong>NeurIPS 2021</strong>. I am serving as reviewer for <strong><a href="https://cvpr2022.thecvf.com/" rel="external nofollow noopener" target="_blank">CVPR 2022</a></strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jul 21, 2021</th> -->
+                  <th scope="row">Jul 2021</th>
+                  <td>
+                    3 papers are accepted to <strong>ICCV 2021</strong>. I accept the invitation to the novel Program Committee Board of IJCAI with service time from 2022 to 2024.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jun 21, 2021</th> -->
+                  <th scope="row">Jun 2021</th>
+                  <td>
+                    1 paper is accepted to <strong>TCYB</strong> and <strong>TIP</strong>. I am serving as reviewer for <a href="https://iclr.cc/" rel="external nofollow noopener" target="_blank"><strong>ICLR 2022</strong></a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Apr 21, 2021</th> -->
+                  <th scope="row">Apr 2021</th>
+                  <td>
+                    Our real-world image denoising paper is accepted to <strong>IJCAI 2021</strong>. I am serving as reviewer  for <strong><a href="https://nips.cc/Conferences/2021/" rel="external nofollow noopener" target="_blank">NeurIPS 2021</a></strong> and <strong><a href="https://2021.acmmm.org/" rel="external nofollow noopener" target="_blank">ACM MM 2021</a></strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Mar 21, 2021</th> -->
+                  <th scope="row">Mar 2021</th>
+                  <td>
+                    Our papers about MR image enhancement and real-world image denoising are accepted to <strong>CVPR 2021</strong>. One paper about MR image super-resolution is accepted to <strong>TCSVT</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Feb 21, 2021</th> -->
+                  <th scope="row">Feb 2021</th>
+                  <td>
+                    Our paper <a href="https://github.com/yulunzhang/RDN" rel="external nofollow noopener" target="_blank">RDN</a> ranks top 10 most influential papers based on citations in CVPR 2018. See <a href="https://www.paperdigest.org/2021/02/most-influential-cvpr-papers/" rel="external nofollow noopener" target="_blank">Most Influential CVPR Papers</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jan 21, 2021</th> -->
+                  <th scope="row">Jan 2021</th>
+                  <td>
+                    Our <a href="https://arxiv.org/abs/2012.09243" rel="external nofollow noopener" target="_blank">Neural Pruning</a> paper (<a href="https://github.com/MingSun-Tse/Regularization-Pruning" rel="external nofollow noopener" target="_blank">code</a>) is accepted to <strong>ICLR 2021</strong>. I am serving as reviewer  for <strong><a href="http://iccv2021.thecvf.com/home" rel="external nofollow noopener" target="_blank">ICCV 2021</a></strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Dec 21, 2020</th> -->
+                  <th scope="row">Dec 2020</th>
+                  <td>
+                    I am serving as a Senior Program Committee (SPC) member for <strong><a href="https://ijcai-21.org/" rel="external nofollow noopener" target="_blank">IJCAI 2021</a></strong> and PC member for <strong><a href="https://icml.cc/Conferences/2021" rel="external nofollow noopener" target="_blank">ICML 2021</a></strong>, <strong><a href="https://miccai2021.org/en/" rel="external nofollow noopener" target="_blank">MICCAI 2021</a></strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Sep 21, 2020</th> -->
+                  <th scope="row">Sep 2020</th>
+                  <td>
+                    We have 1 paper accepted to <strong>TNNLS</strong> and another one accepted to <strong>NeurIPS 2020</strong>. Code will be available soon.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jul 21, 2020</th> -->
+                  <th scope="row">Jul 2020</th>
+                  <td>
+                    We have 2 papers accepted to <strong>ECCV 2020</strong>. Code/data will be available soon.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jun 21, 2020</th> -->
+                  <th scope="row">Jun 2020</th>
+                  <td>
+                    We release the <a href="https://github.com/SHI-Labs/Pyramid-Attention-Networks" rel="external nofollow noopener" target="_blank">code</a> for our paper: <a href="https://arxiv.org/pdf/2004.13824.pdf" rel="external nofollow noopener" target="_blank">Pyramid Attention Networks for Image Restoration</a>
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Feb 21, 2020</th> -->
+                  <th scope="row">Feb 2020</th>
+                  <td>
+                    We have 3 papers accepted to <strong>CVPR 2020</strong>. Congratulations to all authors!
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jan 21, 2020</th> -->
+                  <th scope="row">Jan 2020</th>
+                  <td>
+                    We have 1 paper accepted to <strong>TPAMI</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Dec 21, 2019</th> -->
+                  <th scope="row">Dec 2019</th>
+                  <td>
+                    We release the TensforFlow code and pre-trained models for ICCV19MST at <a href="https://github.com/yulunzhang/MST" rel="external nofollow noopener" target="_blank">MST</a>. The PyTorch code for MST is on the way.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Apr 21, 2019</th> -->
+                  <th scope="row">Apr 2019</th>
+                  <td>
+                    We release all the train/test codes and pre-trained models for ICLR19RNAN at <a href="https://github.com/yulunzhang/RNAN" rel="external nofollow noopener" target="_blank">RNAN</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Dec 25, 2018</th> -->
+                  <th scope="row">Dec 2018</th>
+                  <td>
+                    We have 1 paper accepted to <strong>ICLR 2019</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jul 21, 2018</th> -->
+                  <th scope="row">Jul 2018</th>
+                  <td>
+                    We have 1 paper accepted to <strong>ACM MM 2018</strong> and 1 paper accepted to <strong>ECCV 2018</strong>. PyTorch version for our CVPR18RDN has been implemented by Nguyễn Trần Toàn (trantoan060689@gmail.com) and merged into <a href="https://github.com/thstkdgus35/EDSR-PyTorch" rel="external nofollow noopener" target="_blank">EDSR-PyTorch</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jun 21, 2018</th> -->
+                  <th scope="row">Jun 2018</th>
+                  <td>
+                    I accept the invitation to serve as Program Committee member of <strong>AAAI 2019</strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Feb 21, 2018</th> -->
+                  <th scope="row">Feb 2018</th>
+                  <td>
+                    I will intern to <strong><a href="https://research.adobe.com/" rel="external nofollow noopener" target="_blank">Adobe Research</a></strong> (San Jose, CA) this summer. We have 1 paper accepted to <strong>CVPR 2018</strong> as spotlight. All the codes are available at <a href="https://github.com/yulunzhang/RDN" rel="external nofollow noopener" target="_blank">Github</a>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">Jul 21, 2017</th> -->
+                  <th scope="row">Jul 2017</th>
+                  <td>
+                    I recieve ‘<strong>Excellent Graduate of Beijing</strong>’ award, ‘<strong>Excellent Graduate in Department of Automation, Tsinghua University</strong>’ award, <strong>Excellent Master Thesis Award, Tsinghua University</strong>’ award, and <strong><a href="http://suisf.sz.edu.cn/20170713gg.htm" rel="external nofollow noopener" target="_blank">Shenzhen Universiade International Scholarship</a></strong>.
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <!-- <th scope="row">May 21, 2017</th> -->
+                  <th scope="row">May 2017</th>
+                  <td>
+                    We have 1 IEEE  <strong>TSMC</strong> paper accepted. <a href="http://yulunzhang.com/img/CVPR17NTIRE-SecondAward.jpg" rel="external nofollow noopener" target="_blank">Our team (HelloSR: Xintao Wang, Yapeng Tian, Ke Yu, Yulun Zhang, Shixiang Wu, Chao Dong, Liang Lin, Yu Qiao) ranks <strong>2nd</strong> place</a> in <a href="http://www.vision.ee.ethz.ch/ntire17/" rel="external nofollow noopener" target="_blank">NTIRE Image Super-Resolution Challenge</a>.
+ 
+                  </td>
+                </tr> 
+              </table>
+            </div> 
+          </div>
+
+    
+
+    
+      
+          <div class="publications">
+            <h2>Recent Publications</h2>
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems" rel="external nofollow noopener" target="_blank">NeurIPS Spotlight</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="chen2022cross" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">Cross Aggregation Transformer for Image Restoration</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Zheng Chen, <em>Yulun Zhang</em>, Jinjin Gu, Yongbing Zhang, Linghe Kong, and Xin Yuan</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <!-- <div class="periodical">
+            <em>In Advances in Neural Information Processing Systems</em> 2022
+          </div> -->
+          <div class="periodical">
+          
+            <em>In Advances in Neural Information Processing Systems</em>
+          
+          
+            (<b>NeurIPS Spotlight</b>),
+          
+          
+          2022
+          
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://openreview.net/pdf?id=wQ2QNNP8GtM" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://github.com/zhengchen1999/CAT" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://en.wikipedia.org/wiki/European_Conference_on_Computer_Vision" rel="external nofollow noopener" target="_blank">ECCV Oral</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="wang2022modeling" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">Modeling Mask Uncertainty in Hyperspectral Image Reconstruction</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Jiamian Wang, <em>Yulun Zhang</em>, Xin Yuan, Ziyi Meng, and Zhiqiang Tao</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <!-- <div class="periodical">
+            <em>In European Conference on Computer Vision</em> 2022
+          </div> -->
+          <div class="periodical">
+          
+            <em>In European Conference on Computer Vision</em>
+          
+          
+            (<b>ECCV Oral</b>),
+          
+          
+          2022
+          
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://arxiv.org/abs/2112.15362" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://github.com/Jiamian-Wang/mask_uncertainty_spectral_SCI" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning" rel="external nofollow noopener" target="_blank">ICML</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lin2022unsupervised" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">Unsupervised Flow-Aligned Sequence-to-Sequence Learning for Video Restoration</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Jing Lin<sup>†</sup>, Xiaowan Hu<sup>†</sup>, Yuanhao Cai, Haoqian Wang, Youliang Yan, Xueyi Zou, <em>Yulun Zhang</em>, and Luc Van Gool</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <!-- <div class="periodical">
+            <em>In International Conference on Machine Learning</em> 2022
+          </div> -->
+          <div class="periodical">
+          
+            <em>In International Conference on Machine Learning</em>
+          
+          
+            (<b>ICML</b>),
+          
+          
+          2022
+          
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://proceedings.mlr.press/v162/lin22d/lin22d.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://github.com/linjing7/VR-Baseline" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition" rel="external nofollow noopener" target="_blank">CVPR</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="cai2022mask" class="col-sm-10">
+        
+          <!-- Title -->
+          <div class="title">Mask-guided Spectral-wise Transformer for Efficient Hyperspectral Image Reconstruction</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Yuanhao Cai<sup>†</sup>, Jing Lin<sup>†</sup>, Xiaowan Hu, Haoqian Wang, Xin Yuan, <em>Yulun Zhang</em>, Radu Timofte, and Luc Van Gool</div>
+
+          <!-- Journal/Book title and date -->
+          
+          <!-- <div class="periodical">
+            <em>In Computer Vision and Pattern Recognition</em> 2022
+          </div> -->
+          <div class="periodical">
+          
+            <em>In Computer Vision and Pattern Recognition</em>
+          
+          
+            (<b>CVPR</b>),
+          
+          
+          2022
+          
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Cai_Mask-Guided_Spectral-Wise_Transformer_for_Efficient_Hyperspectral_Image_Reconstruction_CVPR_2022_paper.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://github.com/caiyuanhao1998/MST" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+</ol>
+          </div>
+
+    
+
+    
+    <a href="https://clustrmaps.com/site/19ncr" title="Visit tracker" rel="external nofollow noopener" target="_blank"><img src="//www.clustrmaps.com/map_v2.png?d=jIdUd0dDYkE8CiqptfhnfiWcZHCc5p62dIsontyW-FQ&amp;cl=ffffff" style="width: 0px;"></a>
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        © Copyright 2022 Yulun  Zhang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
 <script type="text/javascript">
-var timeKeeper;
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
 
-$('#menu').click(function()
-{
-    $('#bibtex').show();
-});
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
 
-$('#bibtex').click(function()
-{
-    clearTimeout(timeKeeper);                  
-});
-
-$('#menu').focusout(function()
-{
-    timeKeeper = setTimeout(function() {$('#bibtex').hide()}, 150);
-});
-
-$('#menu').attr('tabIndex', -1);
-$('#bibtex').hide();
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
 </script>
-		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
-<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1530535589" title="wsite-theme-css" />
 
-<link href='http://fonts.googleapis.com/css?family=Yantramanav:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<style type='text/css'>
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Times New Roman" !important;}
-#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
-.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Times New Roman" !important;}
-#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
-.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {color:#515151 !important;}
-.wsite-not-footer h2.wsite-content-title a, .wsite-not-footer .paragraph a, .wsite-not-footer blockquote a, #blogTable .blog-sidebar a, #blogTable .blog-comments a, #blogTable .blog-comments-bottom a, #wsite-com-store a, #wsite-com-product-gen a {color:#052ef3 !important;}
-.wsite-menu-default a {font-family:"Yantramanav" !important;text-transform:  none !important;letter-spacing: 0px !important;}
-.wsite-menu a {}
-.wsite-image div, .wsite-caption {}
-.galleryCaptionInnerText {}
-.fancybox-title {}
-.wslide-caption-text {}
-.wsite-phone {}
-.wsite-headline,.wsite-header-section .wsite-content-title {}
-.wsite-headline-paragraph,.wsite-header-section .paragraph {}
-.wsite-button-inner {}
-.wsite-not-footer blockquote {}
-.wsite-footer blockquote {}
-.blog-header h2 a {}
-#wsite-content h2.wsite-product-title {}
-.wsite-product .wsite-product-price a {}
-.wsite-not-footer h2.wsite-content-title a:hover, .wsite-not-footer .paragraph a:hover, .wsite-not-footer blockquote a:hover, #blogTable .blog-sidebar a:hover, #blogTable .blog-comments a:hover, #blogTable .blog-comments-bottom a:hover, #wsite-com-store a:hover, #wsite-com-product-gen a:hover {color:#8d2424 !important;}
-@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {line-height:20px !important;}
-#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
-.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
-.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:16px !important;}
-#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
-.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {font-size:22px !important;}
-.wsite-menu-default a {font-size:15px !important;}
-.wsite-menu a {}
-.wsite-image div, .wsite-caption {}
-.galleryCaptionInnerText {}
-.fancybox-title {}
-.wslide-caption-text {}
-.wsite-phone {}
-.wsite-headline,.wsite-header-section .wsite-content-title {}
-.wsite-headline-paragraph,.wsite-header-section .paragraph {}
-.wsite-button-inner {}
-.wsite-not-footer blockquote {}
-.wsite-footer blockquote {}
-.blog-header h2 a {}
-#wsite-content h2.wsite-product-title {}
-.wsite-product .wsite-product-price a {}
-}</style>
-
-		<script>
-var STATIC_BASE = '//cdn1.editmysite.com/';
-var ASSETS_BASE = '//cdn2.editmysite.com/';
-var STYLE_PREFIX = 'wsite';
-</script>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
-
-<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
-<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
-		function initCustomerAccountsModels() {
-					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
-_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
-})();
-		}
-		if(document.createEvent && document.addEventListener) {
-			var initEvt = document.createEvent('Event');
-			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
-			document.dispatchEvent(initEvt);
-		} else if(document.documentElement.initCustomerAccountsModels === 0){
-			document.documentElement.initCustomerAccountsModels++
-		}
-		</script>
-		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
-			_W.customerLocale = "en_US";
-			_W.storeName = null;
-			_W.storeCountry = "NL";
-			_W.storeCurrency = "USD";
-			_W.storeEuPrivacyPolicyUrl = "";
-			com_currentSite = "100730443961222929";
-			com_userID = "30604459";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"> window._W = window._W || {}; _W.showV2Footer = 0; </script><script type="text/javascript"><!--
-	var IS_ARCHIVE = 1;
-	
-	function initFlyouts(){
-		initPublishedFlyoutMenus(
-			[{"id":"871451071371970207","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"370701905153002880","title":"About Me","url":"#About Me","target":"","nav_menu":false,"nonclickable":false},{"id":"605036677414579077","title":"Publications","url":"http:\/\/www.robots.ox.ac.uk/~danxu#Publications","target":"","nav_menu":false,"nonclickable":false}],
-			"871451071371970207",
-			'',
-			'active',
-			false,
-			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
-			{}
-		)
-	}
-//-->
-</script>
-		
-		
-	</head>
-	<body class=" no-header-page  wsite-theme-light  wsite-page-index"><div id="container">
-	<table id="header">
-		<tr>
-			<td id="logo"><span class="wsite-logo">
-
-	
-	<span class="wsite-title-placeholder">&nbsp;</span><span style="display:none">
-	<span style="display:none">Dan Xu's Research Page!</span>
-	</span>
-	
-
-</span></td>
-			<td id="header-right">
-				<table>
-					<tr>
-						<td class="phone-number"></td>
-						<td class="social"></td>
-						<td class="search"></td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<div id="navigation">
-		<div id="nav-r">
-			<div id="nav-content">
-				<ul class="wsite-menu-default">
-						<li id="active" class="wsite-menu-item-wrap">
-							<a
-										href="index.html"
-								class="wsite-menu-item"
-								>
-								Home
-							</a>
-							
-						</li>
-						<li id="pg370701905153002880" class="wsite-menu-item-wrap">
-							<a
-										href="#About Me"
-								class="wsite-menu-item"
-								>
-								About Me
-							</a>
-							
-						</li>
-						<li id="pg605036677414579077" class="wsite-menu-item-wrap">
-							<a
-										href="#Publications"
-								class="wsite-menu-item"
-								>
-								Publications
-							</a>
-							
-						</li>
-				</ul>
-				<div class="clear"></div>
-			</div>
-		</div>
-	</div>
-	<div id="main">
-		<div id="banner-bot">
-			<div id="banner-top">
-				<div id="banner">
-					<div class="wsite-header"></div>
-					<em id="tl"></em>
-					<em id="tr"></em>
-					<em id="bl"></em>
-					<em id="br"></em>
-				</div>
-			</div>
-		</div>
-		<div id="content">
-			<div id="wsite-content" class="wsite-elements wsite-not-footer">
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:33.818493150685%; padding:0 15px;">
-					
-						
-
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/images/haotang.jpg" alt="Picture" style="width:auto;max-width:60%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:66.181506849315%; padding:0 15px;">
-					
-						
-
-<div class="paragraph">&nbsp;<br /><strong><font size="6">&#8203;</font><font size="5">Hao Tang&nbsp;</font></strong><br /><br /><font size="3">Ph.D Candidate&nbsp;<br /><a href="http://mhug.disi.unitn.it/" target="_blank">Multimedia and Human Understanding Group (MHUG)</a><br /><a href="https://www.disi.unitn.it/" target="_blank">Department of Information Engineering and Computer Science</a><br /><a href="https://www.unitn.it/en" target="_blank">University of Trento</a><br /><br />&#8203;<br /><strong>Address:</strong>&nbsp; Via Sommarive, 9, 38123 Povo TN, Italy (<a href="https://www.google.com/maps/place/Polo+Scientifico+e+Tecnologico+Fabio+Ferrari,+Polo+A,+Via+Sommarive,+9,+38123+Povo+TN,+Italy/@46.067406,11.1484323,17z/data=!4m5!3m4!1s0x478276954962c4cb:0x553281305aef7de5!8m2!3d46.0670121!4d11.1499026" target="_blank">MAP</a>)<br /><strong>Homepage:</strong>&nbsp;<a href="" target="_blank">disi.unitn.it/~hao.tang/</a><br /><strong>Personal:&nbsp;</strong>&nbsp;[<a href="uploads/others/HaoTang_CV.pdf" target="_blank">Curriculum Viate</a>] and [<a href="https://scholar.google.com/citations?user=9zJkeEMAAAAJ&hl=en" target="_blank">Google Scholar</a>] and [<a href="https://github.com/Ha0Tang" target="_blank">GitHub</a>] and [<a href="https://arxiv.org/a/tang_h_1.html" target="_blank">Arxiv</a>] and [<a href="https://www.linkedin.com/in/hao-tang-887475138/" target="_blank">LinkedIn</a>] and [<a href="https://twitter.com/HaoTang_cs" target="_blank">Twitter</a>]<br /><strong>Email:&nbsp;</strong><em>hao.tang</em>&nbsp;at unitn.it or <em>hao.tang</em> at&nbsp;eng.ox.ac.uk or <em>bjdxtanghao</em>&nbsp;at gmail.com</font></div>
-
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-
-
-<h2 class="wsite-content-title" style="text-align:left;"><font size="5">New Events</font></h2>
-
-<div class="paragraph" style="text-align:left;"><ul>
-
-	<li><font size="3"><strong>December, 2019:</strong>&nbsp;One paper on unpaired image-to-image translation is submitted to <a href="https://arxiv.org/" target="_blank">arXiv</a>. The <a href="https://github.com/Ha0Tang/AttentionGAN" target="_blank">GitHub Code</a> are available now. &nbsp;&nbsp;</font></li>
-	<li><font size="3"><strong>July, 2019:</strong>&nbsp;One paper on keypoint-guided image generation is accepted to <a href="https://www.acmmm.org/2019/" target="_blank">ACM MM 2019</a> as an oral. The <a href="http://disi.unitn.it/~hao.tang/project/C2GAN.html" target="_blank">Project Page</a> and <a href="https://github.com/Ha0Tang/C2GAN" target="_blank">GitHub Code</a> are available now.&nbsp;</font></li>
-	<li><font size="3"><strong>June, 2019:</strong>&nbsp;One paper on eye image manipulation is submitted to <a href="https://arxiv.org/" target="_blank">arXiv</a>. The <a href="https://nips2019.wixsite.com/gazegan" target="_blank">Project Page</a> and <a href="https://github.com/zhangqianhui/GazeCorrection" target="_blank">GitHub Code</a> are available now. &nbsp;</font></li>
-	<li><font size="3"><strong>February, 2019:</strong>&nbsp;One paper on semantic-guided cross-view image translation is accepted to <a href="http://cvpr2019.thecvf.com/" target="_blank">CVPR 2019</a> as an oral. The <a href="http://disi.unitn.it/~hao.tang/project/SelectionGAN.html" target="_blank">Project Page</a> and <a href="https://github.com/Ha0Tang/SelectionGAN" target="_blank">GitHub Code</a> are available now.&nbsp;</font></li>
-	<li><font size="3"><strong>December, 2018:</strong>&nbsp;One paper on dynamic hand gesture recognition is accepted to <a href="https://www.journals.elsevier.com/neurocomputing/" target="_blank">NEUROCOMPUTING</a>. The <a href="http://disi.unitn.it/~hao.tang/project/HandGestureRecognition.html" target="_blank">Project Page</a> and <a href="https://github.com/Ha0Tang/HandGestureRecognition" target="_blank">GitHub Code</a> are available now. &nbsp;</font></li>
-	<li><font size="3"><strong>September, 2018:</strong>&nbsp;One paper on multi-domain image-to-image translation is accepted to <a href="http://accv2018.net/" target="_blank">ACCV 2018</a> as an oral.&nbsp;</font></li>
-	<li><font size="3"><strong>July, 2018:</strong>&nbsp;One paper on image and object recognition is accepted to <a href="http://wacv19.wacv.net/" target="_blank">WACV 2019</a> as an oral at the first round. The <a href="http://disi.unitn.it/~hao.tang/project/DDLCN.html" target="_blank">Project Page</a> and <a href="https://github.com/Ha0Tang/DDLCN" target="_blank">GitHub Code</a> are available now.&nbsp;</font></li>
-	<li><font size="3"><strong>June, 2018:</strong>&nbsp;One paper on hand gesture-to-gesture translation is accepted to <a href="http://www.acmmm.org/2018/" target="_blank">ACM MM 2018</a> as an oral. The <a href="http://disi.unitn.it/~hao.tang/project/GestureGAN.html" target="_blank">Project Page</a> and <a href="https://github.com/Ha0Tang/GestureGAN" target="_blank">GitHub Code</a> are available now. &nbsp;</font></li>
-	<li><font size="3"><strong>February, 2018:</strong>&nbsp;One paper on monocular depth estimation is accepted to <a href="http://cvpr2018.thecvf.com/" target="_blank">CVPR 2018</a> as a spotlight. The <a href="https://github.com/danxuhk/StructuredAttentionDepthEstimation" target="_blank">GitHub Code</a> is available now.&nbsp;</font></li></div>
-	
-<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
-
-
-
-<div><div id="431877439594398809" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a name="About Me">&nbsp</a></div>
-
-
-</div>
-
-<h2 class="wsite-content-title" style="text-align:left;"><font size="5">About Me</font></h2>
-
-<div class="paragraph" style="text-align:justify;"><font size="3">Greetings! My name is Hao Tang. I am currently a Ph.D. candidate in the Department of Information Engineering and Computer Science, and a member of Multimedia and Human Understanding Group (MHUG) at the University of Trento (Italy), under the supervision of Prof. <a href="https://scholar.google.com/citations?user=stFCYOAAAAAJ&amp;hl=en" target="_blank">Nicu Sebe</a>.
-I received my Master degree in Computer Science from the Peking University (China) in 2016, under the supervision of Prof. <a href="https://scholar.google.com/citations?user=4CQKG8oAAAAJ&hl=en" target="_blank">Hong Liu</a>. During my Ph.D. study, I was fortunate to visit Department of Computer Science, Texas State University (USA) in 2018 and 2019, working with Prof. <a href="https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en" target="_blank">Yan Yan</a>.
-My research interests are machine learning, human-computer interaction, (deep) representation learning, robotics and their applications to computer vision.
-<br>
-My motto: If you can't explain it simply, you don't understand it well enough.  
-&nbsp;</font></div>
-
-<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
-
-<div><div id="866293619447582047" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a name="Publications">&nbsp</a></div>
-
-</div>
-
-
-<h2 class="wsite-content-title" style="text-align:left;"><font size="5">Selected Publications</font></h2>
-
-<div class="paragraph"><strong><font size="4">Conference:</font></strong></div>
-
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/mm19.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation</strong><br /><strong>Hao Tang</strong>, Dan Xu, Gaowen Liu, Wei Wang, Nicu Sebe, Yan Yan</span><br /><span style="color:rgb(68, 68, 68)"><strong>ACM MM 2019</strong>, Nice, France </span></font><span>&#8203;</span><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Oral Presentation, Acceptance Rate 4.9%</font></strong><span>)</span></font></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldmm19");            
-	                var output = document.getElementById("outputmm19");
-	                var bibtex = document.getElementById("bibtexmm19");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-	            <button id="fieldmm19" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1mm19" type="text" style="font-size : 13px" tabindex="-1"><a href="https://128.84.21.199/abs/1908.00999" style="color:blue" target="_blank">PDF</a> </button>-<button id="field2mm19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="https://github.com/Ha0Tang/C2GAN" style="color:blue" target="_blank">Code</a></button>-<button id="field3mm19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/project/C2GAN.html" style="color:blue" target="_blank">Project</a></button>-<button id="field4mm19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="uploads/slides/C2GAN_MM19.pptx" style="color:blue" target="_blank">Slides</a></button>-<button id="field4mm19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="uploads/posters/C2GAN_MM19.pdf" style="color:blue" target="_blank">Poster</a></button>
-            <div id="outputmm19" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexmm19" style="display:none">
-          
-<pre><br />@inproceedings{tang2019cycleincycle,
-  title={Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation},
-  author={Tang, Hao and Xu, Dan and Liu, Gaowen and Wang, Wei and Sebe, Nicu and Yan, Yan},
-  booktitle={ACM MM},
-  year={2019}
-}<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/arxiv_201906.png" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>GazeCorrection:Self-Guided Eye Manipulation in the wild using Self-Supervised Generative Adversarial Networks</strong><br />Jichao Zhang, Meng Sun, Jingjing Chen, <strong>Hao Tang</strong>, Yan Yan, Xueying Qin, Nicu Sebe</span><br /><span style="color:rgb(68, 68, 68)"><strong>arXiv Submission</strong></span></font><span>&#8203;</span><br /></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldarxiv19_6");            
-	                var output = document.getElementById("outputarxiv19_6");
-	                var bibtex = document.getElementById("bibtexarxiv19_6");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-            
-            <button id="fieldarxiv19_6" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1arxiv19_6" type="text" style="font-size : 13px" tabindex="-1"><a href="https://arxiv.org/abs/1906.00805" style="color:blue" target="_blank">PDF</a></button>-<button id="field1arxiv19_6" type="text" style="font-size : 13px" tabindex="-1"><a href="https://nips2019.wixsite.com/gazegan" style="color:blue" target="_blank">Project</a></button>-<button id="field1arxiv19_6" type="text" style="font-size : 13px" tabindex="-1"><a href="https://github.com/zhangqianhui/GazeCorrection" style="color:blue" target="_blank">Code</a></button>
-            <div id="outputarxiv19_6" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexarxiv19_6" style="display:none">           
-          
-<pre><br />@inproceedings{zhang2019gazecorrection,
-  title={GazeCorrection:Self-Guided Eye Manipulation in the wild using Self-Supervised Generative Adversarial Networks},
-  author={Zhang, Jichao and Sun, Meng and Chen, Jingjing and Tang, Hao and Yan, Yan and Qin, Xueying and Sebe, Nicu},
-  booktitle={arXiv:1906.00805},
-  year={2019}
-}<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/cvpr19.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation</strong><br /><strong>Hao Tang</strong>, Dan Xu, Nicu Sebe, Yanzhi Wang,  Jason J. Corso, Yan Yan</span><br /><span style="color:rgb(68, 68, 68)"><strong>CVPR 2019</strong>, Long Beach, USA </span></font><span>&#8203;</span><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Oral Presentation, Acceptance Rate 5.5% </font></strong><span>)</span></font></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldcvpr19");            
-	                var output = document.getElementById("outputcvpr19");
-	                var bibtex = document.getElementById("bibtexcvpr19");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-            
-            <button id="fieldcvpr19" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1cvpr19" type="text" style="font-size : 13px" tabindex="-1"><a href="https://arxiv.org/abs/1904.06807" style="color:blue" target="_blank">PDF</a></button>-<button id="field2cvpr19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="https://github.com/Ha0Tang/SelectionGAN" style="color:blue" target="_blank">Code</a></button>-<button id="field3cvpr19" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/project/SelectionGAN.html" style="color:blue" target="_blank">Project</a></button>-<button id="field3cvpr19" type="text" style="font-size : 13px" tabindex="-1"><a href="https://youtu.be/9GR8V-VR4Qg?t=3389" style="color:blue" target="_blank">Presentation</a></button>-<button id="field4cvpr19" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/slides/SelectionGAN_CVPR19.pptx" style="color:blue" target="_blank">Slides</a></button>-<button id="field5cvpr19" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/videos/SelectionGAN_CVPR19.mp4" style="color:blue" target="_blank">Video</a></button>-<button id="field6cvpr19" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/posters/SelectionGAN_CVPR19.pdf" style="color:blue" target="_blank">Poster</a></button>
-            <div id="outputcvpr19" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexcvpr19" style="display:none">           
-          
-<pre><br />@inproceedings{tang2019multichannel,
-  title={Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation},
-  author={Tang, Hao and Xu, Dan and Sebe, Nicu and Wang, Yanzhi and Corso, Jason J and Yan, Yan},
-  booktitle={CVPR},
-  year={2019}
-}<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/accv18.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>Dual Generator Generative Adversarial Networks for Multi-Domain Image-to-Image Translation</strong><br /><strong>Hao Tang</strong>, Dan Xu, Wei Wang, Yan Yan, Nicu Sebe</span><br /><span style="color:rgb(68, 68, 68)"><strong>ACCV 2018</strong>, Perth Western, Australia</span></font><span>&#8203;</span><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Oral Presentation, Acceptance Rate 4.6%</font></strong><span>)</span></font></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldaccv18");            
-	                var output = document.getElementById("outputaccv18");
-	                var bibtex = document.getElementById("bibtexaccv18");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-            
-            <button id="fieldaccv18" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1accv18" type="text" style="font-size : 13px" tabindex="-1"><a href="https://arxiv.org/abs/1901.04604" style="color:blue" target="_blank">PDF</a></button>-<button id="field1accv18" type="text" style="font-size : 13px" tabindex="-1"><a href="https://github.com/Ha0Tang/AsymmetricGAN" style="color:blue" target="_blank">Code</a></button>-<button id="field1accv18" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/project/AsymmetricGAN.html" style="color:blue" target="_blank">Project</a></button>-<button id="field1accv18" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/slides/G2GAN_ACCV18.pptx" style="color:blue" target="_blank">Slides</a></button>-<button id="field1accv18" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/posters/G2GAN_ACCV18.pdf" style="color:blue" target="_blank">Poster</a></button>
-            <div id="outputaccv18" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexaccv18" style="display:none">            
-          
-<pre><br />@inproceedings{tang2018dual,
-  title={Dual Generator Generative Adversarial Networks for Multi-Domain Image-to-Image Translation},
-  author={Tang, Hao and Xu, Dan and Wang, Wei and Yan, Yan and Sebe, Nicu},
-  booktitle={ACCV},
-  year={2018}
-}<br /><br /></pre>	
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/wacv19.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>Deep Micro-Dictionary Learning and Coding Network</strong><br /><strong>Hao Tang</strong>, Heng Wei, Wei Xiao, Wei Wang, Dan Xu, Yan Yan, Nicu Sebe</span><br /><span style="color:rgb(68, 68, 68)"><strong>WACV 2019</strong>, Hawaii, USA </span></font><span>&#8203;</span><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Oral Presentation, First Round</font></strong><span>)</span></font></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldwacv19");            
-	                var output = document.getElementById("outputwacv19");
-	                var bibtex = document.getElementById("bibtexwacv19");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-	    
-	            <button id="fieldwacv19" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1wacv19" type="text" style="font-size : 13px" tabindex="-1"><a href="https://arxiv.org/abs/1809.04185" style="color:blue" target="_blank">PDF</a> </button>-<button id="field2wacv19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="https://github.com/Ha0Tang/DDLCN" style="color:blue" target="_blank">Code</a></button>-<button id="field2wacv19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/project/DDLCN.html" style="color:blue" target="_blank">Project</a></button>-<button id="field2wacv19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/slides/DDLCN_WACV19.pptx" style="color:blue" target="_blank">Slides</a></button>-<button id="field2wacv19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/posters/DDLCN_WACV19.pdf" style="color:blue" target="_blank">Poster</a></button>
-            <div id="outputwacv19" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexwacv19" style="display:none">
-	
-<pre><br />@inproceedings{tang2018deep,
-  title={Deep Micro-Dictionary Learning and Coding Network},
-  author={Tang, Hao and Wei, Heng and Xiao, Wei and Wang, Wei and Xu, Dan and Yan, Yan and Sebe, Nicu},
-  booktitle={WACV},
-  year={2019}
-}<br /><br /></pre>	
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/mm18.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>GestureGAN for Hand Gesture-to-Gesture Translation in the Wild</strong><br /><strong>Hao Tang</strong>, Wei Wang, Dan Xu, Yan Yan, Nicu Sebe</span><br /><span style="color:rgb(68, 68, 68)"><strong>ACM MM 2018</strong>, Seoul, Korea </span></font><span>&#8203;</span><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Oral Presentation, Acceptance Rate 8.5%, Best Paper Candidate!!!</font></strong><span>)</span></font></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldmm18");            
-	                var output = document.getElementById("outputmm18");
-	                var bibtex = document.getElementById("bibtexmm18");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-	            <button id="fieldmm18" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1mm18" type="text" style="font-size : 13px" tabindex="-1"><a href="https://arxiv.org/abs/1808.04859" style="color:blue" target="_blank">PDF</a> </button>-<button id="field2mm18" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="https://github.com/Ha0Tang/GestureGAN" style="color:blue" target="_blank">Code</a></button>-<button id="field3mm18" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/project/GestureGAN.html" style="color:blue" target="_blank">Project</a></button>-<button id="field4mm18" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/slides/GestureGAN_MM18.pptx" style="color:blue" target="_blank">Slides</a></button>-<button id="field5mm18" type="text" style="font-size : 13px" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/uploads/posters/GestureGAN_MM18.pdf" style="color:blue" target="_blank">Poster</a></button>
-            <div id="outputmm18" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexmm18" style="display:none">
-          
-<pre><br />@inproceedings{tang2018gesturegan,
-  title={GestureGAN for Hand Gesture-to-Gesture Translation in the Wild},
-  author={Tang, Hao and Wang, Wei and Xu, Dan and Yan, Yan and Sebe, Nicu},
-  booktitle={ACM MM},
-  year={2018}
-}<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-					
-						
-
-<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/images/cvpr18.jpeg" alt="Picture" style="width:auto;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-					
-						
-
-<div class="paragraph"><font size="3"><strong>Structured Attention Guided Convolutional Neural Fields for Monocular Depth Estimation</strong><br />Dan Xu, Wei Wang, <strong>Hao Tang</strong>, Hong Liu, Nicu Sebe, Elisa Ricci</font><br />&#8203;<font size="3"><span style="color:rgb(68, 68, 68)"><strong>CVPR 2018</strong>, Salt Lake City, USA</span></font><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Spotlight Presentation, Acceptance Rate 7.0%</font></strong><span>)</span></font></div>
-
-<div><div id="954410531964070256" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-        <title>Javascript test1</title>
-        <script type="text/javascript" language="javascript">
-            window.addEventListener("load", func4);
-            function func4()
-            {
-                var field = document.getElementById("fieldcvpr18");            
-                var output = document.getElementById("outputcvpr18");
-                var bibtex = document.getElementById("bibtexcvpr18");
-                                     
-                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-                field.onblur = function() { output.innerHTML = ""; };
-                output.onblur = function() { output.innerHTML = ""; };
-                             
-            };
-        </script>
-      <style> 
-              button[type=text]:disabled {
-                    pointer-events: none;
-                    opacity: 0.6
-              }
-        </style>
-    </head>
-    <body>
-            <button id="fieldcvpr18" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1cvpr18" type="text" style="font-size : 13px" tabindex="-1"><a href="https://arxiv.org/abs/1803.11029" style="color:blue" target="_blank">PDF</a> </button>-<button id="field2cvpr18" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="https://github.com/danxuhk/StructuredAttentionDepthEstimation" style="color:blue" target="_blank">Code</a></button>
-            <div id="outputcvpr18" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexcvpr18" style="display:none">
-          
-<pre><br />@inproceedings{xu2018structured,
-  title={Structured Attention Guided Convolutional Neural Fields for Monocular Depth Estimation},
-  author={Xu, Dan and Wang, Wei and Tang, Hao and Liu, Hong and Sebe, Nicu and Ricci, Elisa},
-  booktitle={CVPR},
-  year={2018}
-}<br /><br /></pre>
-
-
-	 </div>
-        
-    </body>
-</html>
-</div>
-</div>
-	
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/ijcai16.jpg" alt="Picture" style="width:auto;max-width:60%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>A Novel Feature Matching Strategy for Large Scale Image Retrieval</strong><br /><strong>Hao Tang</strong>, Hong Liu</span><br /><span style="color:rgb(68, 68, 68)"><strong>IJCAI 2016</strong>, New York City, USA </span></font><span>&#8203;</span><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Oral Presentation, Acceptance Rate <25.0%</font></strong><span>)</span></font></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldijcai16");            
-	                var output = document.getElementById("outputijcai16");
-	                var bibtex = document.getElementById("bibtexijcai16");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-
-
-            <button id="fieldijcai16" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1ijcai16" type="text" style="font-size : 13px" tabindex="-1"><a href="https://www.ijcai.org/Proceedings/16/Papers/293.pdf" style="color:blue" target="_blank">PDF</a></button>
-            <div id="outputijcai16" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexijcai16" style="display:none"> 
-          
-<pre><br />@inproceedings{tang2016novel,
-  title={A Novel Feature Matching Strategy for Large Scale Image Retrieval},
-  author={Tang, Hao and Liu, Hong},
-  booktitle={IJCAI},
-  year={2016}
-}<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/mm15.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-					</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>Gender Classification using Pyramid Segmentation for Unconstrained Back-Facing Video Sequences</strong><br /><strong>Hao Tang</strong>, Hong Liu, Wei Xiao</span><br /><span style="color:rgb(68, 68, 68)"><strong>ACM MM  2015</strong>, Brisbane, Australia </span></font><span>&#8203;</span><br /><font size="3"><span>(</span><strong><font color="#a82e2e">Poster Presentation, Short Paper, Acceptance Rate 26.1%</font></strong><span>)</span></font></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldmm15");            
-	                var output = document.getElementById("outputmm15");
-	                var bibtex = document.getElementById("bibtexmm15");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-        
-	    </head>
-	    <body>
-
-            <button id="fieldmm15" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1mm15" type="text" style="font-size : 13px" tabindex="-1"><a href="https://dl.acm.org/citation.cfm?id=2806312" style="color:blue" target="_blank">PDF</a></button>
-            <div id="outputmm15" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexmm15" style="display:none"> 
-
-          
-<pre><br />@inproceedings{tang2015gender,
-  title={Gender Classification using Pyramid Segmentation for Unconstrained Back-Facing Video Sequences},
-  author={Tang, Hao and Liu, Hong and Xiao, Wei},
-  booktitle={ACM MM},
-  year={2015}
-}<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-
-<div class="wsite-spacer" style="height:14px;"></div>
-
-<div class="paragraph"><strong><font size="4">Journal:</font></strong>
-
-<!-- <ul><li><strong><font size="3"><span style="color:#000000">Fast and Robust Dynamic Hand Gesture Recognition via Key Frames Extraction and Feature Fusion</span></font></strong></li></ul> <font size="3"><span style="color:#000000">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>Hao Tang</strong>, Hong Liu, Wei Xiao, Nicu Sebe<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Neurocomputing,&nbsp; 2018. [<a href="https://arxiv.org/abs/1901.04622" target="_blank">PDF</a>, <a href="https://github.com/Ha0Tang/HandGestureRecognition" target="_blank">Code</a>]</span> -->
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/ijcv19.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-						</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks
-	</strong><br/><strong>Hao Tang</strong>, Hong Liu, Dan Xu, Philip H.S. Torr, Nicu Sebe</span><br /><span style="color:rgb(68, 68, 68)"><strong>arXiv Submission</strong></span></font><span>&#8203;</span><br /></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldijcv19");            
-	                var output = document.getElementById("outputijcv19");
-	                var bibtex = document.getElementById("bibtexijcv19");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-
-	    </head>
-	    <body>
-	            <button id="fieldijcv19" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1ijcv19" type="text" style="font-size : 13px" tabindex="-1"><a href="https://128.84.21.199/abs/1911.11897" style="color:blue" target="_blank">PDF</a> </button>-<button id="field2ijcv19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="https://github.com/Ha0Tang/AttentionGAN" style="color:blue" target="_blank">Code</a></button>-<button id="field4ijcv19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/project/AttentionGAN.html" style="color:blue" target="_blank">Project</a></button>
-			<div id="outputijcv19" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexijcv19" style="display:none"> 
-
-<pre><br />@article{tang2019attentiongan,
-  title={AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks},
-  author={Tang, Hao and Liu, Hong and Xu, Dan and Torr, Philip HS and Sebe, Nicu},
-  journal={arXiv preprint arXiv:1911.11897},
-  year={2019}
-}
-<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div class="wsite-spacer" style="height:10px;"></div>
-
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-		<table class="wsite-multicol-table">
-			<tbody class="wsite-multicol-tbody">
-				<tr class="wsite-multicol-tr">
-					<td class="wsite-multicol-col" style="width:25.768535262206%; padding:0 15px;">
-								
-	<div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-	<a>
-	<img src="uploads/images/neurocomputing19.jpg" alt="Picture" style="width:auto;max-width:100%" />
-	</a>
-	<div style="display:block;font-size:90%"></div>
-	</div></div>
-						</td>				<td class="wsite-multicol-col" style="width:74.231464737794%; padding:0 15px;">
-	<div class="paragraph"><font size="3"><span><strong>Fast and Robust Dynamic Hand Gesture Recognition via Key Frames Extraction and Feature Fusion
-	</strong><br/><strong>Hao Tang</strong>, Hong Liu, Wei Xiao, Nicu Sebe</span><br /><span style="color:rgb(68, 68, 68)"><strong>Neurocomputing 2019</strong></span></font><span>&#8203;</span><br /></div>
-
-	<div><div id="127594442545404463" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><html>
-	    <head><script src="gdpr/gdprscript.js?buildTime=1234"></script>
-	        <title>Javascript test1</title>
-	        <script type="text/javascript" language="javascript">
-	            window.addEventListener("load", func4);
-	            function func4()
-	            {
-	                var field = document.getElementById("fieldneurocomputing19");            
-	                var output = document.getElementById("outputneurocomputing19");
-	                var bibtex = document.getElementById("bibtexneurocomputing19");
-                                     
-	                field.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                output.onfocus = function() { output.innerHTML = bibtex.innerHTML;};
-	                field.onblur = function() { output.innerHTML = ""; };
-	                output.onblur = function() { output.innerHTML = ""; };
-                             
-	            };
-	        </script>
-	        <style> 
-	              button[type=text]:disabled {
-	                    pointer-events: none;
-	                    background: #dddddd;
-	                    opacity: 0.6
-	              }
-	        </style>
-
-
-	    </head>
-	    <body>
-	            <button id="fieldneurocomputing19" type="text" style="font-size : 13px; color:blue" tabindex="-1">BibTex</button>-<button id="field1neurocomputing19" type="text" style="font-size : 13px" tabindex="-1"><a href="https://arxiv.org/abs/1901.04622" style="color:blue" target="_blank">PDF</a> </button>-<button id="field2neurocomputing19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="https://github.com/Ha0Tang/HandGestureRecognition" style="color:blue" target="_blank">Code</a></button>-<button id="field4neurocomputing19" type="text" style="font-size : 13px; color:blue" tabindex="-1"><a href="http://disi.unitn.it/~hao.tang/project/HandGestureRecognition.html" style="color:blue" target="_blank">Project</a></button>
-			<div id="outputneurocomputing19" style="background:#E7ECEF; border:3px; border-color: black; overflow:auto" tabindex="-1"></div>
-            <div id="bibtexneurocomputing19" style="display:none"> 
-
-<pre><br />@article{tang2019fast,
-  title={Fast and Robust Dynamic Hand Gesture Recognition via Key Frames Extraction and Feature Fusion},
-  author={Tang, Hao and Liu, Hong and Xiao, Wei and Sebe, Nicu},
-  journal={Neurocomputing},
-  volume={331},
-  pages={424--433},
-  year={2019},
-  publisher={Elsevier}
-}
-<br /><br /></pre>
-
-		 </div>
-        
-	    </body>
-	</html>
-	</div>
-</div>
-					
-
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-
-
-<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
-
-<h2 class="wsite-content-title"><font size="5">Selected Awards and Honors</font></h2>
-
-<div class="paragraph"><ul>
-
-<li><font size="3"><strong>IEEE FG 2019 Doctoral Consortium Grant </strong></a></font></li>
-
-<li><font size="3"><strong>ACM MM 2018 Best Paper Award Nominee</strong></a></font></li>
-
-<li><font size="3"><strong>Outstanding Graduates of Beijing, China (Top 3%)</strong></a></font></li>
-
-<li><font size="3"><strong>Outstanding Graduates of PKU (Top 5%) </strong></a></font></li>
-
-<li><font size="3"><strong>Exceptional Award for Academic Innovation of PKU (Top 5%) </strong></a></font></li>
-
-<li><font size="3"><strong>National Scholarship (Top 3%) </strong></a></font></li>
-
-<li><font size="3"><strong>Merit Student Pacesetter of PKU (Top 3%)</strong></a></font></li>
-
-<li><font size="3"><strong>May 4th Scholarship of PKU (Top 5%)</strong></a></font></li>
-
-<li><font size="3"><strong>Outstanding Student of PKU (Top 5%)</strong></a></font></li>
-
-</ul></div>
-
-<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
-
-<h2 class="wsite-content-title" style="text-align:left;"><font size="5"><em>&#8203;</em>&#65279;Professional Activity</font></h2>
-
-<div class="paragraph" style="text-align:left;"><font size="3">Journal/Conference reviewer</font><ul>
-
-	<li><font size="3">&#8203;&#8203;IEEE Transactions on Multimedia (<strong>TMM</strong>)</font><font size="3">&#8203;</font></li>
-	<li><font size="3">&#8203;&#8203;Elsevier Pattern Recognition (<strong>PR</strong>)</font><font size="3">&#8203;</font></li>
-	<li><font size="3">&#8203;&#8203;IEEE Transactions on Circuits and Systems for Video Technology (<strong>TCSVT</strong>)</font><font size="3">&#8203;</font></li>
-	<li><span><font size="3">Elsevier Journal of Neurocomputing (<strong>Neurocomputing</strong>)</font></span></li>
-	<li><font size="3"><span>Springer Journal of&nbsp;</span>Multimedia Tools and Applications&nbsp;(<strong>MTA</strong>)</font></li>
-	<li><font size="3"><span>CAAI Transaction on Intelligence Technology (<strong>TIT</strong>)</span>&#8203;</font></li>
-	</div>
-
-<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
-
-<div class="paragraph" style="text-align:center;"><font size="2"><font color="#626262">&copy; 2019 by Hao Tang. All Rights Reserved.<strong>&nbsp;</strong>L</font><span style=""><font color="#626262">ast Modified: 12/09/2019</font></span></font><font size="2"><span style=""><br /></span></font></div>
-
-<div><div id="973426107240231346" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
-<!-- Default Statcounter code for Homepage https://ha0tang.github.io/ -->
-<script type="text/javascript">
-var sc_project=11834578; 
-var sc_invisible=0; 
-var sc_security="fb842dbd"; 
-var sc_https=1; 
-var scJsHost = (("https:" == document.location.protocol) ? "https://secure." :
-"http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="http://statcounter.com/" target="_blank"><img class="statcounter"
-src="//c.statcounter.com/11834578/0/fb842dbd/0/" alt="Web
-Analytics"></a></div></noscript>
-<!-- End of Statcounter Code --></div>
-
-
-
-</div>
-</div>
-
-			<div class="clear"></div>
-		</div>
-	</div>
-	<div id="footer">
-		<div id="footer-right">
-			Create a <a target="_top" href="http://www.robots.ox.ac.uk/~danxu">free web site</a> with <a target="_top" href="http://www.robots.ox.ac.uk/~danxu/" title="бесплатный сайт">Weebly</a>
-		</div>
-		<div class="clear"></div>
-	</div>
-</div>
-    <div id="customer-accounts-app"></div>
-    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
-
-		
-	</body>
+  </body>
 </html>
