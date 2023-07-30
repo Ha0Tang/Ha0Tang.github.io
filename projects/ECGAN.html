@@ -288,7 +288,7 @@
 <body data-gr-c-s-loaded="true"><div id="MathJax_Message" style="display: none;"></div>
 
     <div class="content">
-        <h1>Edge Guided GANs with Multi-Scale Contrastive Learning for Semantic Image Synthesis<br> in the Wild</h1>
+        <h1>Edge Guided GANs with Multi-Scale Contrastive Learning for Semantic Image Synthesis</h1>
 
         <p id="authors">
             <a href="https://ha0tang.github.io/" target="_blank">Hao Tang</a><sup>1</sup>
@@ -312,7 +312,7 @@
                 </a><p style="text-align: center;"><a href="https://arxiv.org/abs/2307.12084"></a><a href="https://arxiv.org/abs/2307.12084" target="_blank">[Paper]</a><a href="https://github.com/Ha0Tang/ECGAN" target="_blank">[Code]</a>
         </div>
 
-        <p>We propose a novel \underline{e}dge guided \underline{g}enerative \underline{a}dversarial \underline{n}etwork with \underline{c}ontrastive learning (ECGAN) for the challenging semantic image synthesis task. Although considerable improvements have been achieved by the community in the recent period, the quality of synthesized images is far from satisfactory due to three largely unresolved challenges. 1) The semantic labels do not provide detailed structural information, making it challenging to synthesize local details and structures; 2) The widely adopted CNN operations such as convolution, down-sampling, and normalization usually cause spatial resolution loss and thus cannot fully preserve the original semantic information, leading to semantically inconsistent results (e.g., missing small objects); 3) Existing semantic image synthesis methods focus on modeling ``local'' semantic information from a single input semantic layout. However, they ignore ``global'' semantic information of multiple input semantic layouts, i.e., semantic cross-relations between pixels across different input layouts. To tackle 1), we propose to use the edge as an intermediate representation which is further adopted to guide image generation via a proposed attention guided edge transfer module. Edge information is produced by a convolutional generator and introduces detailed structure information. To tackle 2), we design an effective module to selectively highlight class-dependent feature maps according to the original semantic layout to preserve the semantic information. To tackle 3), inspired by current methods in contrastive learning, we propose a novel contrastive learning method, which aims to enforce pixel embeddings belonging to the same semantic class to generate more similar image content than those from different classes.  We further propose a novel multi-scale contrastive learning method that aims to push same-class features from different scales closer together being able to capture more semantic relations by explicitly exploring the structures of labeled pixels from multiple input semantic layouts from different scales. Experiments on three challenging datasets show that our methods achieve significantly better results than state-of-the-art approaches.</p>
+        <p>We propose a novel edge guided generative adversarial network with contrastive learning (ECGAN) for the challenging semantic image synthesis task. Although considerable improvements have been achieved by the community in the recent period, the quality of synthesized images is far from satisfactory due to three largely unresolved challenges. 1) The semantic labels do not provide detailed structural information, making it challenging to synthesize local details and structures; 2) The widely adopted CNN operations such as convolution, down-sampling, and normalization usually cause spatial resolution loss and thus cannot fully preserve the original semantic information, leading to semantically inconsistent results (e.g., missing small objects); 3) Existing semantic image synthesis methods focus on modeling ``local'' semantic information from a single input semantic layout. However, they ignore ``global'' semantic information of multiple input semantic layouts, i.e., semantic cross-relations between pixels across different input layouts. To tackle 1), we propose to use the edge as an intermediate representation which is further adopted to guide image generation via a proposed attention guided edge transfer module. Edge information is produced by a convolutional generator and introduces detailed structure information. To tackle 2), we design an effective module to selectively highlight class-dependent feature maps according to the original semantic layout to preserve the semantic information. To tackle 3), inspired by current methods in contrastive learning, we propose a novel contrastive learning method, which aims to enforce pixel embeddings belonging to the same semantic class to generate more similar image content than those from different classes.  We further propose a novel multi-scale contrastive learning method that aims to push same-class features from different scales closer together being able to capture more semantic relations by explicitly exploring the structures of labeled pixels from multiple input semantic layouts from different scales. Experiments on three challenging datasets show that our methods achieve significantly better results than state-of-the-art approaches.</p>
 
 
         <br clear="all">
@@ -355,13 +355,12 @@
     <div class="content" id="references">
 
         <h2>Reference</h2>
-        <p>Hao Tang, Wei Wang, Dan Xu, Yan Yan, Nicu Sebe. GestureGAN for Hand Gesture-to-Gesture Translation in the Wild. ACM MM 2018.</p>
         <code>
-            @inproceedings{tang2018gesturegan,<br>
-            &nbsp;&nbsp;title={GestureGAN for Hand Gesture-to-Gesture Translation in the Wild},<br>
-            &nbsp;&nbsp;author={Tang, Hao and Wang, Wei and Xu, Dan and Yan, Yan and Sebe, Nicu},<br>
-            &nbsp;&nbsp;booktitle={ACM MM},<br>
-            &nbsp;&nbsp;year={2018}<br>
+            @inproceedings{tang2023edge,<br>
+            &nbsp;&nbsp;title={Edge Guided GANs With Multi-Scale Contrastive Learning for Semantic Image Synthesis},<br>
+            &nbsp;&nbsp;author={Tang, Hao and Sun, Guolei and Sebe, Nicu and Van Gool, Luc},<br>
+            &nbsp;&nbsp;journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},<br>
+            &nbsp;&nbsp;year={2023}<br>
             }
         </code>
 
