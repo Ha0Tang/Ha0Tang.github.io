@@ -12,25 +12,25 @@ $(document).ready(function() {
         const demos = [
             {
                 title: 'DragMesh-2',
-                description: 'DragMesh-2 enables robust contact-driven dexterous manipulation of articulated objects by integrating physically informed contact-aware policy learning without tactile or force feedback.',
+                description: 'A contact-driven framework for robust dexterous interaction with articulated objects.',
                 src: '/assets/video/dragmesh2.mp4',
                 poster: '/assets/img/demos/dragmesh2.png'
             },
             {
-                title: 'Self-Evolving Vision-Language-Action',
-                description: 'Robotic policies adapting across tasks through visual reasoning and action feedback.',
+                title: 'EvoVLA (ECCV 2026)',
+                description: 'A self-supervised framework for robust long-horizon robotic manipulation.',
                 src: '/assets/video/evovla.mp4',
                 poster: ''
             },
             {
-                title: 'Mobile Robot Vision-Language-Action',
-                description: 'Long-horizon mobile manipulation with embodied perception and planning.',
+                title: 'MobileVLA-R1 (ECCV 2026)',
+                description: 'A reasoning-enhanced vision-language-action framework for robust quadruped robot control.',
                 src: '/assets/video/mobilevlar1.mp4',
                 poster: ''
             },
             {
-                title: '3D Reconstruction and Reasoning',
-                description: 'Geometry-aware visual modeling for richer spatial understanding.',
+                title: '3D-R1',
+                description: 'A reasoning-enhanced foundation model for robust 3D scene understanding.',
                 src: '/assets/video/3dr1.mp4',
                 poster: ''
             }
