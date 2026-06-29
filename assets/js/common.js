@@ -29,6 +29,12 @@ $(document).ready(function() {
                 poster: ''
             },
             {
+                title: 'ReMoMask (ECCV 2026)',
+                description: 'A retrieval-augmented framework for robust text-to-motion generation.',
+                src: '/assets/video/ReMoMask.mp4',
+                poster: ''
+            },
+            {
                 title: '3D-R1',
                 description: 'A reasoning-enhanced foundation model for robust 3D scene understanding.',
                 src: '/assets/video/3dr1.mp4',
