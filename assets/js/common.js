@@ -29,15 +29,21 @@ $(document).ready(function() {
                 poster: null
             },
             {
-                title: 'DragMesh-2',
+                title: 'DragMesh-2 (2026)',
                 description: 'A contact-driven framework for robust dexterous interaction with articulated objects.',
                 src: '/assets/video/dragmesh2.mp4',
                 poster: '/assets/img/demos/dragmesh2.png'
             },
             {
-                title: '3D-R1',
+                title: '3D-R1 (2025)',
                 description: 'A reasoning-enhanced foundation model for robust 3D scene understanding.',
                 src: '/assets/video/3dr1.mp4',
+                poster: null
+            },
+            {
+                title: 'Motion Mamba (ECCV 2024)',
+                description: 'A state space model-based framework for efficient, long-sequence, and high-quality human motion generation.',
+                src: '/assets/video/MotionMamba.mp4',
                 poster: null
             }
         ];
