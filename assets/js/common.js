@@ -11,8 +11,8 @@ $(document).ready(function() {
     if (featureDemoVideo) {
         const demos = [
             {
-                title: 'Interactive 3D Generation and Editing',
-                description: 'Controllable generation, spatial intelligence, and embodied interaction in one visual snapshot.',
+                title: 'DragMesh-2',
+                description: 'DragMesh-2 enables robust contact-driven dexterous manipulation of articulated objects by integrating physically informed contact-aware policy learning without tactile or force feedback.',
                 src: '/assets/video/dragmesh2.mp4',
                 poster: '/assets/img/demos/dragmesh2.png'
             },
