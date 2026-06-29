@@ -11,12 +11,6 @@ $(document).ready(function() {
     if (featureDemoVideo) {
         const demos = [
             {
-                title: 'DragMesh-2',
-                description: 'A contact-driven framework for robust dexterous interaction with articulated objects.',
-                src: '/assets/video/dragmesh2.mp4',
-                poster: '/assets/img/demos/dragmesh2.png'
-            },
-            {
                 title: 'EvoVLA (ECCV 2026)',
                 description: 'A self-supervised framework for robust long-horizon robotic manipulation.',
                 src: '/assets/video/evovla.mp4',
@@ -33,6 +27,12 @@ $(document).ready(function() {
                 description: 'A retrieval-augmented framework for robust text-to-motion generation.',
                 src: '/assets/video/ReMoMask.mp4',
                 poster: ''
+            },
+            {
+                title: 'DragMesh-2',
+                description: 'A contact-driven framework for robust dexterous interaction with articulated objects.',
+                src: '/assets/video/dragmesh2.mp4',
+                poster: '/assets/img/demos/dragmesh2.png'
             },
             {
                 title: '3D-R1',
