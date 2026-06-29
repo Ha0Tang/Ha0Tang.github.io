@@ -18,13 +18,13 @@ $(document).ready(function() {
             {
                 title: 'EvoVLA (ECCV 2026)',
                 description: 'A self-supervised framework for robust long-horizon robotic manipulation.',
-                src: '/assets/video/evovla.mp4',
+                src: '/assets/video/EvoVLA.mp4',
                 poster: null
             },
             {
                 title: 'MobileVLA-R1 (ECCV 2026)',
                 description: 'A reasoning-enhanced vision-language-action framework for robust quadruped robot control.',
-                src: '/assets/video/mobilevlar1.mp4',
+                src: '/assets/video/MobileVLA-R1.mp4',
                 poster: null
             },
             {
@@ -36,13 +36,19 @@ $(document).ready(function() {
             {
                 title: 'DragMesh-2 (2026)',
                 description: 'A contact-driven framework for robust dexterous interaction with articulated objects.',
-                src: '/assets/video/dragmesh2.mp4',
-                poster: '/assets/img/demos/dragmesh2.png'
+                src: '/assets/video/DragMesh-2.mp4',
+                poster: '/assets/img/demos/DragMesh-2.png'
+            },
+            {
+                title: 'UmiMesh (2026)',
+                description: 'A unified framework that seamlessly integrates 3D generation and understanding through shared mesh representations and iterative reasoning.',
+                src: '/assets/video/UmiMesh.mp4',
+                poster: null
             },
             {
                 title: '3D-R1 (2025)',
                 description: 'A reasoning-enhanced foundation model for robust 3D scene understanding.',
-                src: '/assets/video/3dr1.mp4',
+                src: '/assets/video/3D-R1.mp4',
                 poster: null
             },
             {
