@@ -168,6 +168,32 @@
 
     </div>
 
+    <section class="feature-demo" aria-labelledby="feature-demo-title">
+      <div class="feature-demo-stage">
+        <button class="feature-demo-nav feature-demo-prev" type="button" aria-label="Previous demo" title="Previous demo">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="feature-demo-media">
+          <video id="feature-demo-video" autoplay muted loop playsinline controls preload="metadata" poster="/assets/img/demos/dragmesh2.png">
+            <source src="/assets/video/dragmesh2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <button class="feature-demo-nav feature-demo-next" type="button" aria-label="Next demo" title="Next demo">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="feature-demo-copy">
+        <div>
+          <span class="feature-demo-kicker">Feature Demo</span>
+          <h2 id="feature-demo-title">Interactive 3D Generation and Editing</h2>
+        </div>
+        <p id="feature-demo-description">
+          Controllable generation, spatial intelligence, and embodied interaction in one visual snapshot.
+        </p>
+        <span class="feature-demo-count" aria-live="polite">1 / 4</span>
+      </div>
+    </section>
+
           <div class="news">
             <h2>News & Events</h2>
             <div class="table-responsive" style="max-height: 30vw">
@@ -3888,7 +3914,7 @@
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
-  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/common.js?v=feature-demo"></script>
 
     <!-- MathJax -->
   <script type="text/javascript">

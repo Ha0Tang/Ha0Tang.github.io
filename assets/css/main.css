@@ -144,6 +144,34 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .news table.table-sm th, table.table-sm td { padding-top: 0rem; padding-bottom: 0.2rem; }
 
+.feature-demo { margin: 2rem 0 2.25rem; padding: 1rem; border: 1px solid var(--global-divider-color); border-radius: 8px; background: linear-gradient(135deg, rgba(181, 9, 172, 0.08), rgba(38, 152, 186, 0.07)); }
+
+.feature-demo-stage { position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 1px solid var(--global-divider-color); border-radius: 8px; background-color: #050505; }
+
+.feature-demo-media { width: 100%; background-color: #050505; }
+
+.feature-demo-media video { display: block; width: 100%; height: auto; max-height: 72vh; object-fit: contain; }
+
+.feature-demo-nav { position: absolute; top: 50%; z-index: 2; display: flex; align-items: center; justify-content: center; width: 2.4rem; height: 2.4rem; padding: 0; border: 1px solid rgba(255, 255, 255, 0.45); border-radius: 50%; color: #ffffff; background-color: rgba(0, 0, 0, 0.45); transform: translateY(-50%); cursor: pointer; transition: background-color 0.15s ease, border-color 0.15s ease; }
+
+.feature-demo-nav:hover { color: #ffffff; border-color: rgba(255, 255, 255, 0.8); background-color: rgba(0, 0, 0, 0.68); }
+
+.feature-demo-prev { left: 0.75rem; }
+
+.feature-demo-next { right: 0.75rem; }
+
+.feature-demo-copy { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.75rem 1rem; align-items: end; margin-top: 1rem; }
+
+.feature-demo-copy h2 { margin: 0.15rem 0 0; font-size: 1.45rem; line-height: 1.25; }
+
+.feature-demo-copy p { grid-column: 1 / -1; margin: 0; color: var(--global-text-color-light); line-height: 1.55; }
+
+.feature-demo-kicker { display: inline-block; color: var(--global-theme-color); font-size: 0.78rem; font-weight: 700; letter-spacing: 0; text-transform: uppercase; }
+
+.feature-demo-count { color: var(--global-text-color-light); font-size: 0.9rem; white-space: nowrap; }
+
+@media (max-width: 767px) { .feature-demo { padding: 0.75rem; } .feature-demo-nav { width: 2rem; height: 2rem; } .feature-demo-prev { left: 0.45rem; } .feature-demo-next { right: 0.45rem; } .feature-demo-copy { grid-template-columns: 1fr; align-items: start; } .feature-demo-copy h2 { font-size: 1.28rem; } .feature-demo-count { justify-self: start; } }
+
 .social { text-align: left; }
 
 .social .contact-icons { font-size: 2rem; margin-top: -1rem; margin-bottom: 1rem; }
