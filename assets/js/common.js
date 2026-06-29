@@ -1,14 +1,19 @@
 $(document).ready(function() {
+
     $('a.abstract').click(function() {
         $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
     });
+
     $('a.bibtex').click(function() {
         $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
     });
+
     $('a').removeClass('waves-effect waves-light');
 
     const featureDemoVideo = document.getElementById('feature-demo-video');
+
     if (featureDemoVideo) {
+
         const demos = [
             {
                 title: 'EvoVLA (ECCV 2026)',
@@ -20,7 +25,7 @@ $(document).ready(function() {
                 title: 'MobileVLA-R1 (ECCV 2026)',
                 description: 'A reasoning-enhanced vision-language-action framework for robust quadruped robot control.',
                 src: '/assets/video/mobilevlar1.mp4',
-                poster: ''
+                poster: null
             },
             {
                 title: 'ReMoMask (ECCV 2026)',
@@ -47,49 +52,95 @@ $(document).ready(function() {
                 poster: null
             }
         ];
+
         let demoIndex = 0;
+
         const title = document.getElementById('feature-demo-title');
         const description = document.getElementById('feature-demo-description');
         const count = document.querySelector('.feature-demo-count');
         const prev = document.querySelector('.feature-demo-prev');
         const next = document.querySelector('.feature-demo-next');
 
-        const showDemo = function(index) {
+        // ---------- preload cache ----------
+        const preloadCache = {};
+
+        function preload(index) {
+
+            index = (index + demos.length) % demos.length;
+
+            if (preloadCache[index]) return;
+
+            const v = document.createElement('video');
+            v.preload = 'auto';
+            v.src = demos[index].src;
+
+            preloadCache[index] = v;
+        }
+
+        // preload first videos
+        preload(0);
+        preload(1);
+        preload(2);
+
+        function showDemo(index) {
+
             demoIndex = (index + demos.length) % demos.length;
+
             const demo = demos[demoIndex];
-            const wasPaused = featureDemoVideo.paused;
 
-            featureDemoVideo.pause();
-
-            featureDemoVideo.src = demo.src;
+            if (title) title.textContent = demo.title;
+            if (description) description.textContent = demo.description;
+            if (count) count.textContent = (demoIndex + 1) + " / " + demos.length;
 
             if (demo.poster) {
                 featureDemoVideo.poster = demo.poster;
             } else {
-                featureDemoVideo.removeAttribute('poster');
+                featureDemoVideo.removeAttribute("poster");
             }
 
-            if (title) title.textContent = demo.title;
-            if (description) description.textContent = demo.description;
-            if (count) count.textContent = (demoIndex + 1) + ' / ' + demos.length;
-            featureDemoVideo.load();
-
-            if (!wasPaused || featureDemoVideo.autoplay) {
-                featureDemoVideo.play().catch(function() {});
+            // already playing this video
+            if (featureDemoVideo.src.endsWith(demo.src)) {
+                return;
             }
-        };
+
+            featureDemoVideo.pause();
+
+            featureDemoVideo.onloadeddata = function () {
+                featureDemoVideo.play().catch(function(){});
+                featureDemoVideo.onloadeddata = null;
+            };
+
+            featureDemoVideo.src = demo.src;
+
+            // preload next videos
+            preload(demoIndex + 1);
+            preload(demoIndex + 2);
+        }
 
         if (prev) {
             prev.addEventListener('click', function() {
                 showDemo(demoIndex - 1);
             });
         }
+
         if (next) {
             next.addEventListener('click', function() {
                 showDemo(demoIndex + 1);
             });
         }
-        // 初始化
+
+        // keyboard support
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') {
+                showDemo(demoIndex - 1);
+            }
+            if (e.key === 'ArrowRight') {
+                showDemo(demoIndex + 1);
+            }
+        });
+
         showDemo(0);
+
     }
+
 });
