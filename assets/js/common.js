@@ -34,6 +34,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'VaseVQA-3D (ICLR 2026)',
+                description: 'A domain-adaptive vision-language framework for 3D cultural heritage pottery understanding.',
+                src: '/assets/video/VaseVQA-3D.mp4',
+                poster: null
+            },
+            {
                 title: 'DragMesh-2 (2026)',
                 description: 'A contact-driven framework for robust dexterous interaction with articulated objects.',
                 src: '/assets/video/DragMesh-2.mp4',
