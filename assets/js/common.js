@@ -14,7 +14,7 @@ $(document).ready(function() {
                 title: 'EvoVLA (ECCV 2026)',
                 description: 'A self-supervised framework for robust long-horizon robotic manipulation.',
                 src: '/assets/video/evovla.mp4',
-                poster: ''
+                poster: null
             },
             {
                 title: 'MobileVLA-R1 (ECCV 2026)',
@@ -26,7 +26,7 @@ $(document).ready(function() {
                 title: 'ReMoMask (ECCV 2026)',
                 description: 'A retrieval-augmented framework for robust text-to-motion generation.',
                 src: '/assets/video/ReMoMask.mp4',
-                poster: ''
+                poster: null
             },
             {
                 title: 'DragMesh-2',
@@ -38,7 +38,7 @@ $(document).ready(function() {
                 title: '3D-R1',
                 description: 'A reasoning-enhanced foundation model for robust 3D scene understanding.',
                 src: '/assets/video/3dr1.mp4',
-                poster: ''
+                poster: null
             }
         ];
         let demoIndex = 0;
@@ -52,17 +52,22 @@ $(document).ready(function() {
             demoIndex = (index + demos.length) % demos.length;
             const demo = demos[demoIndex];
             const wasPaused = featureDemoVideo.paused;
+
             featureDemoVideo.pause();
+
             featureDemoVideo.src = demo.src;
+
             if (demo.poster) {
                 featureDemoVideo.poster = demo.poster;
             } else {
                 featureDemoVideo.removeAttribute('poster');
             }
+
             if (title) title.textContent = demo.title;
             if (description) description.textContent = demo.description;
             if (count) count.textContent = (demoIndex + 1) + ' / ' + demos.length;
             featureDemoVideo.load();
+
             if (!wasPaused || featureDemoVideo.autoplay) {
                 featureDemoVideo.play().catch(function() {});
             }
@@ -78,5 +83,7 @@ $(document).ready(function() {
                 showDemo(demoIndex + 1);
             });
         }
+        // 初始化
+        showDemo(0);
     }
 });
