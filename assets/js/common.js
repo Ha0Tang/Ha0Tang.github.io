@@ -52,6 +52,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'PartRM (CVPR 2025)',
+                description: 'A 4D reconstruction framework for learning part-level object dynamics from static multi-view images.',
+                src: '/assets/video/PartRM.mp4',
+                poster: null
+            },
+            {
                 title: '3D-R1 (2025)',
                 description: 'A reasoning-enhanced foundation model for robust 3D scene understanding.',
                 src: '/assets/video/3D-R1.mp4',
