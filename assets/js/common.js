@@ -52,6 +52,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'GeneralVLA-2 (2026)',
+                description: 'A geometry-aware vision-language-action framework for generalist robot manipulation.',
+                src: '/assets/video/GeneralVLA-2.mp4',
+                poster: null
+            },
+            {
                 title: 'DragMesh-2 (2026)',
                 description: 'A contact-driven framework for dexterous interaction with articulated objects.',
                 src: '/assets/video/DragMesh-2.mp4',
