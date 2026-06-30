@@ -46,6 +46,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'PAM (ICRA 2026)',
+                description: 'A unified framework for controllable hand-object interaction video generation.',
+                src: '/assets/video/PAM.mp4',
+                poster: null
+            },
+            {
                 title: 'StereoAdapter (ICRA 2026)',
                 description: 'A parameter-efficient framework for robust underwater stereo depth estimation.',
                 src: '/assets/video/StereoAdapter.mp4',
@@ -100,6 +106,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'DragMesh (2026)',
+                description: 'A real-time framework for interactive 3D articulated object manipulation.',
+                src: '/assets/video/DragMesh.mp4',
+                poster: null
+            },
+            {
                 title: 'GeneralVLA (2026)',
                 description: 'A hierarchical VLA framework for zero-shot robot manipulation.',
                 src: '/assets/video/GeneralVLA.mp4',
@@ -121,6 +133,12 @@ $(document).ready(function() {
                 title: 'Nav-R1 (2025)',
                 description: 'A reasoning-enhanced foundation model for embodied navigation.',
                 src: '/assets/video/Nav-R1.mp4',
+                poster: null
+            },
+            {
+                title: 'AnyDepth (2025)',
+                description: 'A lightweight framework for zero-shot monocular depth estimation.',
+                src: '/assets/video/AnyDepth.mp4',
                 poster: null
             },
             {
