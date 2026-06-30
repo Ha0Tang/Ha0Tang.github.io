@@ -23,7 +23,7 @@ $(document).ready(function() {
             },
             {
                 title: 'MobileVLA-R1 (ECCV 2026)',
-                description: 'A reasoning-enhanced vision-language-action framework for robust quadruped robot control.',
+                description: 'A reasoning-enhanced VLA framework for quadruped robot control.',
                 src: '/assets/video/MobileVLA-R1.mp4',
                 poster: null
             },
@@ -34,20 +34,26 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'StereoAdapter (ICRA 2026)',
+                description: 'A parameter-efficient framework for robust underwater stereo depth estimation.',
+                src: '/assets/video/StereoAdapter.mp4',
+                poster: null
+            },
+            {
                 title: 'VaseVQA-3D (ICLR 2026)',
-                description: 'A domain-adaptive vision-language framework for 3D cultural heritage pottery understanding.',
+                description: 'A domain-adaptive vision-language framework for 3D cultural heritage understanding.',
                 src: '/assets/video/VaseVQA-3D.mp4',
                 poster: null
             },
             {
                 title: 'DragMesh-2 (2026)',
-                description: 'A contact-driven framework for robust dexterous interaction with articulated objects.',
+                description: 'A contact-driven framework for dexterous interaction with articulated objects.',
                 src: '/assets/video/DragMesh-2.mp4',
                 poster: '/assets/img/demos/DragMesh-2.png'
             },
             {
                 title: 'UniMesh (2026)',
-                description: 'A unified framework that seamlessly integrates 3D generation and understanding through shared mesh representations and iterative reasoning.',
+                description: 'A unified framework for joint 3D generation and understanding.',
                 src: '/assets/video/UniMesh.mp4',
                 poster: null
             },
@@ -65,7 +71,7 @@ $(document).ready(function() {
             },
             {
                 title: 'Nav-R1 (2025)',
-                description: 'A unified reasoning framework for robust embodied navigation in complex 3D environments.',
+                description: 'A reasoning-enhanced foundation model for embodied navigation.',
                 src: '/assets/video/Nav-R1.mp4',
                 poster: null
             },
@@ -77,7 +83,7 @@ $(document).ready(function() {
             },
             {
                 title: 'Motion Mamba (ECCV 2024)',
-                description: 'A state space model-based framework for efficient, long-sequence, and high-quality human motion generation.',
+                description: 'A state space model for efficient long-sequence human motion generation.',
                 src: '/assets/video/MotionMamba.mp4',
                 poster: null
             }
