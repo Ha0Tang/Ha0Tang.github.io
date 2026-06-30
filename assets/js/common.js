@@ -40,6 +40,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'Code2Worlds (ICML 2026)',
+                description: 'A code generation framework for physics-aware 4D world simulation.',
+                src: '/assets/video/Code2Worlds.mp4',
+                poster: null
+            },
+            {
                 title: 'StereoAdapter (ICRA 2026)',
                 description: 'A parameter-efficient framework for robust underwater stereo depth estimation.',
                 src: '/assets/video/StereoAdapter.mp4',
@@ -79,6 +85,12 @@ $(document).ready(function() {
                 title: 'UniMesh (2026)',
                 description: 'A unified framework for joint 3D generation and understanding.',
                 src: '/assets/video/UniMesh.mp4',
+                poster: null
+            },
+            {
+                title: 'SCOPE (2026)',
+                description: 'A scope-aware diffusion framework for interactive FPS world modeling.',
+                src: '/assets/video/SCOPE.mp4',
                 poster: null
             },
             {
