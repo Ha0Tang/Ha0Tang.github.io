@@ -34,6 +34,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'PhysRAG (ECCV 2026)',
+                description: 'A retrieval-augmented framework for physically aware video generation.',
+                src: '/assets/video/PhysRAG.mp4',
+                poster: null
+            },
+            {
                 title: 'StereoAdapter (ICRA 2026)',
                 description: 'A parameter-efficient framework for robust underwater stereo depth estimation.',
                 src: '/assets/video/StereoAdapter.mp4',
