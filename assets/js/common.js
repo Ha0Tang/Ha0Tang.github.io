@@ -94,6 +94,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'GeneralVLA (2026)',
+                description: 'A hierarchical VLA framework for zero-shot robot manipulation.',
+                src: '/assets/video/GeneralVLA.mp4',
+                poster: null
+            },
+            {
                 title: 'PartRM (CVPR 2025)',
                 description: 'A 4D reconstruction framework for learning part-level object dynamics from static multi-view images.',
                 src: '/assets/video/PartRM.mp4',
