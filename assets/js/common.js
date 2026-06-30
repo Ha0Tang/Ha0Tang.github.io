@@ -48,7 +48,7 @@ $(document).ready(function() {
             {
                 title: 'UmiMesh (2026)',
                 description: 'A unified framework that seamlessly integrates 3D generation and understanding through shared mesh representations and iterative reasoning.',
-                src: '/assets/video/UmiMesh.mp4',
+                src: '/assets/video/UniMesh.mp4',
                 poster: null
             },
             {
