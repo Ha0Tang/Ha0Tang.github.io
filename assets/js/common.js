@@ -64,6 +64,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'Nav-R1 (2025)',
+                description: 'A unified reasoning framework for robust embodied navigation in complex 3D environments.',
+                src: '/assets/video/Nav-R1.mp4',
+                poster: null
+            },
+            {
                 title: 'UniVid (2025)',
                 description: 'A unified multimodal architecture for joint video generation and understanding.',
                 src: '/assets/video/UniVid.mp4',
