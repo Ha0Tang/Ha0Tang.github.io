@@ -46,7 +46,7 @@ $(document).ready(function() {
                 poster: '/assets/img/demos/DragMesh-2.png'
             },
             {
-                title: 'UmiMesh (2026)',
+                title: 'UniMesh (2026)',
                 description: 'A unified framework that seamlessly integrates 3D generation and understanding through shared mesh representations and iterative reasoning.',
                 src: '/assets/video/UniMesh.mp4',
                 poster: null
