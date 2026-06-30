@@ -124,6 +124,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'DiffFNO (CVPR 2025 Oral)',
+                description: 'A Fourier-enhanced diffusion framework for arbitrary-scale image super-resolution.',
+                src: '/assets/video/DiffFNO.mp4',
+                poster: null
+            },
+            {
                 title: '3D-R1 (2025)',
                 description: 'A reasoning-enhanced foundation model for robust 3D scene understanding.',
                 src: '/assets/video/3D-R1.mp4',
