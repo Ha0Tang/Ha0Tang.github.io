@@ -52,6 +52,12 @@ $(document).ready(function() {
                 poster: '/assets/img/demos/DragMesh-2.png'
             },
             {
+                title: 'PresentAgent-2 (2026)',
+                description: 'An agentic framework for research-grounded presentation video generation.',
+                src: '/assets/video/PresentAgent-2.mp4',
+                poster: null
+            },
+            {
                 title: 'UniMesh (2026)',
                 description: 'A unified framework for joint 3D generation and understanding.',
                 src: '/assets/video/UniMesh.mp4',
