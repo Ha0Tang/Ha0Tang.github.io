@@ -58,6 +58,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'UniVid (2025)',
+                description: 'A unified multimodal architecture for joint video generation and understanding.',
+                src: '/assets/video/UniVid.mp4',
+                poster: null
+            },
+            {
                 title: 'Motion Mamba (ECCV 2024)',
                 description: 'A state space model-based framework for efficient, long-sequence, and high-quality human motion generation.',
                 src: '/assets/video/MotionMamba.mp4',
