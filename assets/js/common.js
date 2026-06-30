@@ -58,6 +58,12 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'MoSA (ICLR 2026)',
+                description: 'A structure-guided framework for realistic human video generation.',
+                src: '/assets/video/MoSA.mp4',
+                poster: null
+            },
+            {
                 title: 'MotionVLA (2026)',
                 description: 'A frequency-aware VLA framework for human motion generation.',
                 src: '/assets/video/MotionVLA.mp4',
