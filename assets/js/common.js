@@ -46,7 +46,7 @@ $(document).ready(function() {
                 poster: null
             },
             {
-                title: 'PAM (ICRA 2026)',
+                title: 'PAM (CVPR 2026)',
                 description: 'A unified framework for controllable hand-object interaction video generation.',
                 src: '/assets/video/PAM.mp4',
                 poster: null
