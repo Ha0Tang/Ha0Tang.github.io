@@ -52,8 +52,14 @@ $(document).ready(function() {
                 poster: null
             },
             {
+                title: 'MotionVLA (2026)',
+                description: 'A frequency-aware VLA framework for human motion generation.',
+                src: '/assets/video/MotionVLA.mp4',
+                poster: null
+            },
+            {
                 title: 'GeneralVLA-2 (2026)',
-                description: 'A geometry-aware vision-language-action framework for generalist robot manipulation.',
+                description: 'A geometry-aware VLA framework for generalist robot manipulation.',
                 src: '/assets/video/GeneralVLA-2.mp4',
                 poster: null
             },
