@@ -16,6 +16,18 @@ $(document).ready(function() {
 
         const demos = [
             {
+                title: 'VibeAvatar (ACM MM 2026)',
+                description: 'A flow-based multi-modal talking avatar framework with phonetic-aware articulation and aesthetically optimized motion.',
+                src: '/assets/video/VibeAvatar.mp4',
+                poster: null
+            },
+            {
+                title: 'CoT4AD (ACM MM 2026)',
+                description: 'A chain-of-thought VLA framework for autonomous driving.',
+                src: '/assets/video/CoT4AD.mp4',
+                poster: null
+            },
+            {
                 title: 'EvoVLA (ECCV 2026)',
                 description: 'A self-supervised framework for robust long-horizon robotic manipulation.',
                 src: '/assets/video/EvoVLA.mp4',
